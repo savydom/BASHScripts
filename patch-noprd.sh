@@ -40,10 +40,10 @@ if [ -f /var/tmp/patch-apply ]
 then
      lucreate -n patch-$PDATE
 
-     smpatch add -d /net/192.168.104.149/jumpstart/patch/sparc -b patch-$PDATE -xidlist=/var/tmp/patchorder
-#smpatch add -d /net/sscmgt1/jumpstart/patch/sparc -b patch-$PDATE -xidlist=/var/tmp/patchorder
-#smpatch add -d /net/192.168.14.150/export/home/patch -b patch-$PDATE -xidlist=/var/tmp/patchorder
-#smpatch add -d /net/sdmgt1/export/home/patch -b patch-$PDATE -xidlist=/var/tmp/patchorder
+     smpatch add -d /net/192.168.0.0/jumpstart/patch/sparc -b patch-$PDATE -xidlist=/var/tmp/patchorder
+#smpatch add -d /net/mgt1/jumpstart/patch/sparc -b patch-$PDATE -xidlist=/var/tmp/patchorder
+#smpatch add -d /net/192.168.0.0/export/home/patch -b patch-$PDATE -xidlist=/var/tmp/patchorder
+#smpatch add -d /net/mgt1/export/home/patch -b patch-$PDATE -xidlist=/var/tmp/patchorder
 else
      echo "Patches found are not already installed in Test."
 fi
