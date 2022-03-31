@@ -1,0 +1,344 @@
+LDOM Log
+aceprdapp
+aceprddb
+acetstapp
+acetstdb
+arowsdbprd
+arowsdbtst
+cmsidtest
+cmsidtest2
+cmsidtest3
+itcujb
+itcujb2
+itcujc
+itcujd
+jalisdb
+mrrsdbdev
+mrrsdbprd
+mrrsdbtst
+mywm-hq
+mywm-lant
+mywm-pac
+mywm-qa
+nmpbsapdev1
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-23Nov2013            yes      yes    yes       no     -         
+27Nov2013                  yes      no     no        yes    -         
+nmpbsapprd1
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-25May2013            yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbsapprd2
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-25May2013            yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbsaptst1
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-25May2013            yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbsaptst2
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-25May2013            yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbsdbdev1
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-05Sep-IDR            yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbsdbprd1
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+sol10-0910-p7              yes      no     no        yes    -         
+patch-25May2013            yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbsdbprd2
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+23Nov2013                  yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbsdbprd3
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+23Nov2013                  yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbsdbprd4
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+23Nov2013                  yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbsdbtst1
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-03Oct2012            yes      no     no        yes    -         
+patch-25May2013            yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbsdbtst2
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbsdbtst3
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-25May2013            yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbswbdev1
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-23Nov2013            yes      no     no        yes    -         
+26Nov2013                  yes      yes    yes       no     -         
+nmpbswbprd1
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-23Nov2013            yes      yes    yes       no     -         
+nmpbswbtst1
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-23Feb2013            yes      no     no        yes    -         
+patch-25May2013            yes      no     no        yes    -         
+patch-23Nov2013            yes      yes    yes       no     -         
+nrowsdbprd
+nrowsdbtst
+pmtdbdev
+pmtdbprd
+pmtdbtst
+rhsdbprd
+rhsdbtst
+rimsdbdev
+rimsdbprd
+rimsdbtst
+semdevdb
+semdvap1
+sempdap1
+semprddb
+sempvcs
+semtstdb
+semttap1
+sscucft1
+sscucw1
+sscudft1
+sscudmt1
+sscudmt2
+sscudmt3
+sscudw1
+sscudw2
+sscudw3
+sscujmt1
+sscutft1
+sscutft2
+sscutmt1
+sscutmt2
+sscutmt3
+aceprdapp-sd
+aceprddb-sd
+acetstapp-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_acetstapp            yes      no     no        yes    -         
+patch-01Feb2013            yes      no     no        yes    -         
+patch-22May2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         
+arowsdbprd-sd
+arowsdbtst-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_arowsdbtst           yes      no     no        yes    -         
+patch-01Feb2013            yes      no     no        yes    -         
+patch-22May2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         
+cmsidtest-sd
+cmsidtest2-sd
+cmsidtest3-sd
+itcujb-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_itcujb               yes      no     no        yes    -         
+patch-08May2013            yes      no     no        yes    -         
+patch-29Jul2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         
+itcujb2-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool                      yes      no     no        yes    -         
+patch-08May2013            yes      no     no        yes    -         
+patch-29Jul2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         
+itcujc-sd
+itcujd-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_itcujd               yes      no     no        yes    -         
+patch-08May2013            yes      no     no        yes    -         
+patch-26Jul2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         
+jalisdb-sd
+jalisdbprd-sd
+mrrsdbdev-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_mrrsdbdev            yes      no     no        yes    -         
+patch-22May2013            yes      no     no        yes    -         
+patch-26Jul2013            yes      no     no        yes    -         
+patch-20Nov2013            yes      yes    yes       no     -         
+mrrsdbprd-sd
+mrrsdbtst-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_mrrsdbtst            yes      no     no        yes    -         
+patch-22May2013            yes      no     no        yes    -         
+patch-26Jul2013            yes      no     no        yes    -         
+patch-20Nov2013            yes      yes    yes       no     -         
+mywm-hq-sd
+mywm-lant-sd
+mywm-pac-sd
+mywm-qa-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_mywm-qa              yes      no     no        yes    -         
+patch-22May2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         
+nrowsdbprd-sd
+nrowsdbtst-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_nrowsdbtst           yes      no     no        yes    -         
+patch-22May2013            yes      no     no        yes    -         
+patch-26Jul2013            yes      no     no        yes    -         
+patch-20Nov2013            yes      yes    yes       no     -         
+pmtdbdev-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_pmtdbdev             yes      no     no        yes    -         
+patch-22May2013            yes      no     no        yes    -         
+patch-26Jul2013            yes      no     no        yes    -         
+patch-20Nov2013            yes      yes    yes       no     -         
+pmtdbprd-sd
+pmtdbtst-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_pmtdbtst             yes      no     no        yes    -         
+patch-22May2013            yes      no     no        yes    -         
+patch-26Jul2013            yes      no     no        yes    -         
+patch-20Nov2013            yes      yes    yes       no     -         
+rhsdbprd-sd
+rhsdbtst-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+sol10-0910-p1              yes      no     no        yes    -         
+patch-26Jul2013            yes      no     no        yes    -         
+patch-20Nov2013            yes      yes    yes       no     -         
+rimsdbdev-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_rimsdbdev            yes      no     no        yes    -         
+patch-22May2013            yes      no     no        yes    -         
+patch-26Jul2013            yes      no     no        yes    -         
+patch-20Nov2013            yes      yes    yes       no     -         
+rimsdbprd-sd
+rimsdbtst-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_rimsdbtst            yes      no     no        yes    -         
+patch-22May2013            yes      no     no        yes    -         
+patch-26Jul2013            yes      no     no        yes    -         
+patch-19Nov2013            yes      yes    yes       no     -         
+semdevdb-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+patch-22May2013            yes      no     no        yes    -         
+patch-20Nov2013            yes      yes    yes       no     -         
+semdvap1-sd
+sempdap1-sd
+semprddb-sd
+sempvcs-sd
+sscucft1-sd
+sscucw1-sd
+sscudft1-sd
+sscudmt1-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_sscudmt1             yes      no     no        yes    -         
+patch-02May2013            yes      no     no        yes    -         
+patch-24Jul2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         
+sscudmt2-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_sscudmt2             yes      no     no        yes    -         
+patch-02May2013            yes      no     no        yes    -         
+patch-24Jul2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         
+sscudmt3-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_sscudmt3             yes      no     no        yes    -         
+patch-02May2013            yes      no     no        yes    -         
+patch-25Jul2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         
+sscudw1-sd
+sscudw2-sd
+sscudw3-sd
+sscujmt1-sd
+sscutft1-sd
+sscutft2-sd
+sscutmt1-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_sscutmt1             yes      no     no        yes    -         
+patch-07May2013            yes      no     no        yes    -         
+patch-29Jul2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         
+sscutmt2-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_sscutmt2             yes      no     no        yes    -         
+patch-29Jul2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         
+sscutmt3-sd
+Boot Environment           Is       Active Active    Can    Copy      
+Name                       Complete Now    On Reboot Delete Status    
+-------------------------- -------- ------ --------- ------ ----------
+rpool_sscutmt3             yes      no     no        yes    -         
+patch-07May2013            yes      no     no        yes    -         
+patch-29Jul2013            yes      no     no        yes    -         
+patch-04Nov2013            yes      yes    yes       no     -         

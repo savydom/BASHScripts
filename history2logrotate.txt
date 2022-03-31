@@ -1,0 +1,12 @@
+
+
+# THIS FILE IS AUTOMATICALLY DISTRIBUTED BY PUPPET.  ANY CHANGES WILL BE
+# OVERWRITTEN.
+
+/var/log/history2 {
+  compress
+  create 600 root root
+  dateext
+  size 50M
+  yearly
+}

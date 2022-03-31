@@ -1,0 +1,1626 @@
+Package Check
+acetstapp
+application splunkforwarder Splunk
+[default]
+host = acetstapp
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3562     1   0   Oct 12 ?          36:33 splunkd -p 8089 start
+    root  3563  3562   0   Oct 12 ?           0:48 splunkd -p 8089 start
+mywm-qa
+application splunkforwarder Splunk
+[default]
+host = mywm-qa
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3465  3464   0   Oct 12 ?           1:02 splunkd -p 8089 start
+    root  3464     1   0   Oct 12 ?          46:35 splunkd -p 8089 start
+acetstdb
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = acetstdb
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  1396     1   0   Oct 12 ?          56:31 splunkd -p 8089 start
+    root  1397  1396   0   Oct 12 ?           0:56 splunkd -p 8089 start
+aceprdapp
+application splunkforwarder Splunk
+[default]
+host = aceprdapp
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3386     1   0   Oct 19 ?          18:39 splunkd -p 8089 start
+    root  3389  3386   0   Oct 19 ?           0:23 splunkd -p 8089 start
+mywm-hq
+application splunkforwarder Splunk
+[default]
+host = mywm-hq
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3271  3268   0   Oct 19 ?           0:21 splunkd -p 8089 start
+    root  3268     1   0   Oct 19 ?          17:42 splunkd -p 8089 start
+mywm-lant
+application splunkforwarder Splunk
+[default]
+host = mywm-lant
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  6919  6918   0   Oct 19 ?           0:20 splunkd -p 8089 start
+    root  6918     1   0   Oct 19 ?          14:58 splunkd -p 8089 start
+mywm-pac
+application splunkforwarder Splunk
+[default]
+host = mywm-pac
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  7082     1   0   Oct 19 ?          14:56 splunkd -p 8089 start
+    root  7083  7082   0   Oct 19 ?           0:19 splunkd -p 8089 start
+aceprddb
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = aceprddb
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  1366     1   0   Oct 19 ?          19:05 splunkd -p 8089 start
+    root  1367  1366   0   Oct 19 ?           0:18 splunkd -p 8089 start
+aceprdapp-sd
+application splunkforwarder Splunk
+[default]
+host = aceprdapp
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  2957  2954   0   Oct 19 ?           0:40 splunkd -p 8089 start
+    root  2954     1   0   Oct 19 ?          28:01 splunkd -p 8089 start
+mywm-hq-sd
+application splunkforwarder Splunk
+[default]
+host = mywm-hq
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  2933  2931   0   Oct 19 ?           0:59 splunkd -p 8089 start
+    root  2931     1   0   Oct 19 ?          52:06 splunkd -p 8089 start
+mywm-lant-sd
+application splunkforwarder Splunk
+[default]
+host = mywm-lant
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root 23615     1   0   Oct 19 ?          53:00 splunkd -p 8089 start
+    root 23617 23615   0   Oct 19 ?           1:00 splunkd -p 8089 start
+mywm-pac-sd
+application splunkforwarder Splunk
+[default]
+host = mywm-pac
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  2873  2871   0   Oct 19 ?           1:00 splunkd -p 8089 start
+    root  2871     1   0   Oct 19 ?          51:49 splunkd -p 8089 start
+aceprddb-sd
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = aceprddb
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  1287     1   0   Oct 19 ?          27:50 splunkd -p 8089 start
+    root  1288  1287   0   Oct 19 ?           0:27 splunkd -p 8089 start
+    root  7855  1288   0 14:44:12 ?           0:00 /bin/sh -c /opt/splunkforwarder/etc/apps/bsm_ace/bin/bsmwrapper.sh
+    root  7856  7855   0 14:44:12 ?           0:00 /usr/bin/python /opt/splunkforwarder/etc/apps/bsm_ace/bin/bsmping.py
+sscudw1
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscudw1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2834  2829   0   Sep 27 ?           1:00 splunkd -p 8089 start
+    root  2829     1   0   Sep 27 ?          80:10 splunkd -p 8089 start
+sscudw2
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscudw2
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3157     1   0   Sep 27 ?          77:13 splunkd -p 8089 start
+    root  3158  3157   0   Sep 27 ?           0:58 splunkd -p 8089 start
+sscudw3
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscudw3
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2832     1   0   Sep 27 ?          79:38 splunkd -p 8089 start
+    root  2833  2832   0   Sep 27 ?           0:57 splunkd -p 8089 start
+sscudmt1
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscudmt1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2959     1   0   Sep 27 ?          81:27 splunkd -p 8089 start
+    root  2965  2959   0   Sep 27 ?           1:27 splunkd -p 8089 start
+sscudmt2
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscudmt2
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2826     1   0   Sep 27 ?          78:01 splunkd -p 8089 start
+    root  2827  2826   0   Sep 27 ?           0:58 splunkd -p 8089 start
+sscudmt3
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscudmt3
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3561  3559   0   Sep 27 ?           1:27 splunkd -p 8089 start
+    root  3559     1   0   Sep 27 ?          81:49 splunkd -p 8089 start
+sscudft1
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscudft1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2983  2978   0   Sep 27 ?           1:01 splunkd -p 8089 start
+    root  2978     1   0   Sep 27 ?          80:47 splunkd -p 8089 start
+itcujd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = itcujd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3603  3598   0   Sep 27 ?           1:33 splunkd -p 8089 start
+    root  3598     1   0   Sep 27 ?          95:47 splunkd -p 8089 start
+cmsidtest
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = cmsidtest
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3022  3017   0   Sep 27 ?           1:25 splunkd -p 8089 start
+    root  3017     1   0   Sep 27 ?          78:50 splunkd -p 8089 start
+cmsidtest2
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = cmsidtest2
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2967  2962   0   Sep 27 ?           1:22 splunkd -p 8089 start
+    root  2962     1   0   Sep 27 ?          90:00 splunkd -p 8089 start
+cmsidtest3
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = cmsidtest3
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2954  2948   0   Sep 27 ?           1:21 splunkd -p 8089 start
+    root  2948     1   0   Sep 27 ?          78:37 splunkd -p 8089 start
+sscutmt1
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscutmt1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3031  3025   0   Sep 27 ?           1:25 splunkd -p 8089 start
+    root  3025     1   0   Sep 27 ?          92:51 splunkd -p 8089 start
+sscutmt2
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscutmt2
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2968     1   0   Sep 27 ?          86:06 splunkd -p 8089 start
+    root  2974  2968   0   Sep 27 ?           1:24 splunkd -p 8089 start
+sscutmt3
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscutmt3
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3619  3613   0   Sep 27 ?           1:23 splunkd -p 8089 start
+    root  3613     1   0   Sep 27 ?          84:23 splunkd -p 8089 start
+sscutft2
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscutft2
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2893  2888   0   Sep 27 ?           1:22 splunkd -p 8089 start
+    root  2888     1   0   Sep 27 ?          79:12 splunkd -p 8089 start
+itcujb
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = itcujb
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3540  3535   0   Oct 18 ?           0:24 splunkd -p 8089 start
+    root  3535     1   0   Oct 18 ?          20:11 splunkd -p 8089 start
+itcujb2
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = itcujb2
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3013  3008   0   Sep 27 ?           1:42 splunkd -p 8089 start
+    root  3008     1   0   Sep 27 ?          95:10 splunkd -p 8089 start
+sscucw1
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscucw1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3544  3539   0   Oct 04 ?           1:02 splunkd -p 8089 start
+    root  3539     1   0   Oct 04 ?          61:41 splunkd -p 8089 start
+sscujmt1
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscujmt1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3028  3000   0   Oct 04 ?           1:04 splunkd -p 8089 start
+    root  3000     1   0   Oct 04 ?          71:05 splunkd -p 8089 start
+sscucft1
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscucft1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2915  2909   0   Oct 04 ?           1:06 splunkd -p 8089 start
+    root  2909     1   0   Oct 04 ?          66:44 splunkd -p 8089 start
+itcujc
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = itcujc
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3483     1   0   Oct 16 ?          30:37 splunkd -p 8089 start
+    root  3488  3483   0   Oct 16 ?           0:38 splunkd -p 8089 start
+sscucw1-sd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscucw1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  2636  2630   0   Oct 04 ?           1:42 splunkd -p 8089 start
+    root  2630     1   0   Oct 04 ?          96:08 splunkd -p 8089 start
+sscujmt1-sd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscujmt1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  2610  2604   0   Oct 04 ?           1:37 splunkd -p 8089 start
+    root  2604     1   0   Oct 04 ?          82:31 splunkd -p 8089 start
+sscucft1-sd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = sscucft1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  2611     1   0   Oct 04 ?         117:00 splunkd -p 8089 start
+    root  2617  2611   0   Oct 04 ?           2:07 splunkd -p 8089 start
+itcujc-sd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = itcujc
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  2674  2669   0   Oct 04 ?           2:39 splunkd -p 8089 start
+    root  2669     1   0   Oct 04 ?          95:37 splunkd -p 8089 start
+nmpbswbdev1
+nmpbsapdev1
+nmpbsoamdev1
+nmpbsdbdev1
+nmpbswbtst1
+nmpbsaptst1
+nmpbsaptst2
+nmpbsoamtst1
+nmpbssastst1
+nmpbsdbtst1
+nmpbsdbtst2
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = nmpbsdbtst2
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+    root  2266     1   0   Oct 10 ?         158:57 splunkd -p 8089 restart
+    root  2267  2266   0   Oct 10 ?           1:10 splunkd -p 8089 restart
+    root  2058     1   0   Oct 10 ?         158:11 splunkd -p 8089 restart
+    root  2059  2058   0   Oct 10 ?           1:09 splunkd -p 8089 restart
+nmpbsdbtst3
+nmpbswbprd2
+nmpbsapprd1
+nmpbsapprd2
+nmpbsoamprd1
+nmpbssasprd1
+nmpbsdbprd1
+nmpbsdbprd2
+nmpbsdbprd3
+nmpbsdbprd4
+nmpbswbprd2-sd
+nmpbsapprd1-sd
+nmpbsapprd2-sd
+nmpbsoamprd1-sd
+nmpbssasprd1-sd
+nmpbsdbprd1-sd
+nmpbsdbprd2-sd
+nmpbsdbprd3-sd
+nmpbsdbprd4-sd
+SEMDVAP1
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = semdvap1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2950  2947   0   Sep 27 ?           1:31 splunkd -p 8089 start
+    root  2947     1   0   Sep 27 ?         107:38 splunkd -p 8089 start
+SEMDEVDB
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = semdevdb
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2830     1   0   Sep 27 ?          97:28 splunkd -p 8089 start
+    root  2833  2830   0   Sep 27 ?           1:31 splunkd -p 8089 start
+SSCMAIL
+application splunkforwarder Splunk
+[default]
+host = sscmail
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3584  3581   0   Sep 27 ?           1:45 splunkd -p 8089 start
+    root  3581     1   0   Sep 27 ?          86:43 splunkd -p 8089 start
+SEMTTAP1
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = semttap1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  1228     1   0   Sep 27 ?         103:44 splunkd -p 8089 start
+    root  1229  1228   0   Sep 27 ?           1:30 splunkd -p 8089 start
+SEMTSTDB
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = semtstdb
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2939     1   0   Sep 27 ?          87:13 splunkd -p 8089 start
+    root  2940  2939   0   Sep 27 ?           1:27 splunkd -p 8089 start
+SEMPVCS
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = sempvcs
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2889     1   0   Sep 27 ?          94:55 splunkd -p 8089 start
+    root  2892  2889   0   Sep 27 ?           1:30 splunkd -p 8089 start
+SEMPDAP1
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = sempdap1
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2992     1   0   Oct 04 ?          93:01 splunkd -p 8089 start
+    root  2995  2992   0   Oct 04 ?           1:02 splunkd -p 8089 start
+SEMPRDDB
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = semprddb
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  1223  1222   0   Oct 04 ?           1:40 splunkd -p 8089 start
+    root  1222     1   0   Oct 04 ?         114:36 splunkd -p 8089 start
+SSCMAIL-SD
+application splunkforwarder Splunk
+    root  2955     1   0   Sep 27 ?         418:51 splunkd -p 8089 start
+    root  2957  2955   0   Sep 27 ?           6:31 splunkd -p 8089 start
+SEMPDAP1-SD
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = semdevdb
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  2971     1   0   Oct 04 ?         145:56 splunkd -p 8089 start
+    root  2972  2971   0   Oct 04 ?           2:05 splunkd -p 8089 start
+SEMPRDDB-SD
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = semprddb
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  2921  2920   0   Oct 04 ?           2:27 splunkd -p 8089 start
+    root  2920     1   0   Oct 04 ?         158:12 splunkd -p 8089 start
+mrrsdbdev
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = mrrsdbdev
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3585     1   0   Sep 27 ?          90:26 splunkd -p 8089 start
+    root  3591  3585   0   Sep 27 ?           1:33 splunkd -p 8089 start
+mrrsdbtst
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = mrrsdbtst
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3586  3580   0   Sep 27 ?           2:03 splunkd -p 8089 start
+    root  3580     1   0   Sep 27 ?         116:44 splunkd -p 8089 start
+mrrsdbprd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = mrrsdbprd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3016     1   0   Oct 04 ?          60:16 splunkd -p 8089 start
+    root  3021  3016   0   Oct 04 ?           1:23 splunkd -p 8089 start
+mrrsdbprd-sd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = mrrsdbprd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  3118     1   0   Oct 04 ?          93:33 splunkd -p 8089 start
+    root  3124  3118   0   Oct 04 ?           2:07 splunkd -p 8089 start
+rhsdbprd
+application splunkforwarder Splunk
+[default]
+host = rhsdbprd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3600     1   0   Oct 03 ?          65:37 splunkd -p 8089 start
+    root  3608  3600   0   Oct 03 ?           1:27 splunkd -p 8089 start
+rimsdbdev
+application splunkforwarder Splunk
+[default]
+host = rimsdbdev
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+    root  3614  3605   0 12:03:09 ?           0:00 splunkd -p 8089 start
+    root  3605     1   0 12:03:09 ?           0:36 splunkd -p 8089 start
+rimsdbtst
+application splunkforwarder Splunk
+[default]
+host = rimsdbtst
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3699     1   0 12:03:02 ?           0:31 splunkd -p 8089 start
+    root  3708  3699   0 12:03:02 ?           0:00 splunkd -p 8089 start
+rimsdbprd
+application splunkforwarder Splunk
+[default]
+host = rimsdbprd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3683     1   0   Oct 03 ?          80:46 splunkd -p 8089 start
+    root  3692  3683   0   Oct 03 ?           1:31 splunkd -p 8089 start
+rimsdbprd-sd
+application splunkforwarder Splunk
+    root 14600     1   0   Oct 03 ?         207:16 splunkd -p 8089 start
+    root 14609 14600   0   Oct 03 ?           3:33 splunkd -p 8089 start
+arowsdbtst
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = arowsdbtst
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3811  3806   0   Sep 27 ?           1:54 splunkd -p 8089 start
+    root  3806     1   0   Sep 27 ?         116:13 splunkd -p 8089 start
+arowsdbprd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = arowsdbprd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3815  3809   0   Oct 04 ?           1:04 splunkd -p 8089 start
+    root  3809     1   0   Oct 04 ?          69:07 splunkd -p 8089 start
+arowsdbprd-sd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = arowsdbprd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  1235     1   0   Oct 04 ?         112:10 splunkd -p 8089 start
+    root  1240  1235   0   Oct 04 ?           1:24 splunkd -p 8089 start
+nrowsdbdev
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = nrowsdbdev
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3525  3519   0   Sep 27 ?           2:07 splunkd -p 8089 start
+    root  3519     1   0   Sep 27 ?         123:08 splunkd -p 8089 start
+nrowsdbtst
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = nrowsdbtst
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3687  3681   0   Sep 27 ?           1:16 splunkd -p 8089 start
+    root  3681     1   0   Sep 27 ?         140:54 splunkd -p 8089 start
+nrowsdbprd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = nrowsdbprd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3783  3778   0   Oct 04 ?           1:22 splunkd -p 8089 start
+    root  3778     1   0   Oct 04 ?          85:01 splunkd -p 8089 start
+nrowsdbprd-sd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = nrowsdbprd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  3741  3735   0   Oct 04 ?           2:18 splunkd -p 8089 start
+    root  3735     1   0   Oct 04 ?         157:24 splunkd -p 8089 start
+spscnlat1d
+application splunkforwarder Splunk
+[default]
+host = spscnlat1d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  4507  4498   0   Oct 12 ?           0:48 splunkd -p 8089 start
+    root  4498     1   0   Oct 12 ?          40:52 splunkd -p 8089 start
+spscnlap1d
+application splunkforwarder Splunk
+[default]
+host = spscnlap1d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  4024  4019   0   Oct 18 ?           0:48 splunkd -p 8089 start
+    root  4019     1   0   Oct 18 ?          31:48 splunkd -p 8089 start
+spscnlap2d
+application splunkforwarder Splunk
+[default]
+host = spscnlap2d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  4175     1   0   Oct 18 ?          21:02 splunkd -p 8089 start
+    root  4186  4175   0   Oct 18 ?           0:26 splunkd -p 8089 start
+spscnlap1t
+application splunkforwarder Splunk
+[default]
+host = spscnlap1t
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  5579  5576   0   Oct 18 ?           0:22 splunkd -p 8089 start
+    root  5576     1   0   Oct 18 ?          22:57 splunkd -p 8089 start
+spsspscp1d
+application splunkforwarder Splunk
+    root  4244  4241   0   Oct 18 ?           1:01 splunkd -p 8089 start
+    root  4241     1   0   Oct 18 ?          26:35 splunkd -p 8089 start
+spsspscp1t
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = spsspscp1t
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  2884  2867   0   Oct 18 ?           0:52 splunkd -p 8089 start
+    root  2867     1   0   Oct 18 ?          60:58 splunkd -p 8089 start
+pmtdbdev
+application splunkforwarder Splunk
+[default]
+host = pmtdbdev
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3742     1   0 12:03:24 ?           0:25 splunkd -p 8089 start
+    root  3750  3742   0 12:03:24 ?           0:00 splunkd -p 8089 start
+pmtdbtst
+application splunkforwarder Splunk
+[default]
+host = pmtdbtst
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3507  3499   0 12:03:38 ?           0:00 splunkd -p 8089 start
+    root  3499     1   0 12:03:38 ?           0:27 splunkd -p 8089 start
+pmtdbprd
+application splunkforwarder Splunk
+[default]
+host = pmtdbprd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2265  2257   0   Oct 03 ?           1:36 splunkd -p 8089 start
+    root  2257     1   0   Oct 03 ?          80:39 splunkd -p 8089 start
+pmtdbprd-sd
+application splunkforwarder Splunk
+    root  1097  1089   0   Oct 03 ?           4:25 splunkd -p 8089 start
+    root  1089     1   0   Oct 03 ?         184:09 splunkd -p 8089 start
+pridecnlat1f
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = pridecnlat1f
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3164  3159   0   Sep 27 ?           1:28 splunkd -p 8089 start
+    root  3159     1   0   Sep 27 ?          86:32 splunkd -p 8089 start
+pridecnlap1f
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = pridecnlap1f
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3120     1   0   Oct 04 ?          66:23 splunkd -p 8089 start
+    root  3125  3120   0   Oct 04 ?           1:04 splunkd -p 8089 start
+pridespscp1f
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = pridespscp1f
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  1175     1   0   Oct 04 ?          83:08 splunkd -p 8089 start
+    root  1178  1175   0   Oct 04 ?           1:39 splunkd -p 8089 start
+jalisdbdev
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = jalisdbdev
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  1466  1463   0 08:01:37 ?           0:01 splunkd -p 8089 start
+    root  1463     1   0 08:01:37 ?           1:11 splunkd -p 8089 start
+jalisdbtst
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = jalisdbtst
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2948     1   0 08:02:00 ?           0:57 splunkd -p 8089 start
+    root  2951  2948   0 08:02:00 ?           0:01 splunkd -p 8089 start
+jalisdbprd
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = jalisdbprd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  1568     1   0   Oct 05 ?          60:02 splunkd -p 8089 start
+    root  1569  1568   0   Oct 05 ?           1:03 splunkd -p 8089 start
+jalisdbprd-sd
+application/splunkforwarder (splunk)              6.6.3                      i--
+[default]
+host = jalisdbprd
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  1550  1548   0 08:02:21 ?           0:03 splunkd -p 8089 start
+    root  1548     1   0 08:02:21 ?           2:51 splunkd -p 8089 start
+fdatacnlad1w
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = fdatacnlad1w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  1535     1   0   Oct 23 ?           4:10 splunkd -p 8089 start
+    root  1540  1535   0   Oct 23 ?           0:03 splunkd -p 8089 start
+fdatacnlat1w
+application splunkforwarder Splunk
+[default]
+host = fdatacnlat1w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3330  3322   0   Oct 23 ?           0:04 splunkd -p 8089 start
+    root  3322     1   0   Oct 23 ?           3:40 splunkd -p 8089 start
+fdatacnlat2w
+application splunkforwarder Splunk
+[default]
+host = fdatacnlat2w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3407     1   0   Oct 23 ?           3:52 splunkd -p 8089 start
+    root  3415  3407   0   Oct 23 ?           0:05 splunkd -p 8089 start
+fdatacnlat3w
+application splunkforwarder Splunk
+[default]
+host = fdatacnlat3w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3302  3296   0   Oct 23 ?           0:04 splunkd -p 8089 start
+    root  3296     1   0   Oct 23 ?           3:35 splunkd -p 8089 start
+fdatacnlap1w
+application splunkforwarder Splunk
+[default]
+host = fdatacnlap1w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3612     1   0   Oct 05 ?          59:22 splunkd -p 8089 start
+    root  3620  3612   0   Oct 05 ?           1:13 splunkd -p 8089 start
+fdatacnlap1w-sd
+application splunkforwarder Splunk
+    root  3516  3508   0   Oct 05 ?           1:44 splunkd -p 8089 start
+    root  3508     1   0   Oct 05 ?          77:03 splunkd -p 8089 start
+netcdcnlad3d
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = netcdcnlad3d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3039     1   0   Oct 23 ?           4:30 splunkd -p 8089 start
+    root  3044  3039   0   Oct 23 ?           0:04 splunkd -p 8089 start
+netcdcnlad6d
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = netcdcnlad6d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3034  3029   0   Oct 23 ?           0:04 splunkd -p 8089 start
+    root  3029     1   0   Oct 23 ?           3:48 splunkd -p 8089 start
+netcdcnlat3d
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = netcdcnlat3d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3077  3074   0   Oct 23 ?           0:04 splunkd -p 8089 start
+    root  3074     1   0   Oct 23 ?           6:17 splunkd -p 8089 start
+netcdcnlat6d
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = netcdcnlat6d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2798  2792   0   Oct 23 ?           0:13 splunkd -p 8089 start
+    root  2792     1   0   Oct 23 ?          17:24 splunkd -p 8089 start
+netcdcnlap3d
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = netcdcnlap3d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  3021     1   0   Oct 05 ?          99:52 splunkd -p 8089 start
+    root  3026  3021   0   Oct 05 ?           1:41 splunkd -p 8089 start
+netcdcnlap6d
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = netcdcnlap6d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+    root  2787  2784   0   Oct 05 ?           1:00 splunkd -p 8089 start
+    root  2784     1   0   Oct 05 ?          60:55 splunkd -p 8089 start
+netcdcnlap3d-sd
+application/splunkforwarder (splunk)              6.5.3                      i--
+[default]
+host = netcdcnlap3d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+    root  1154  1148   0   Oct 05 ?           1:44 splunkd -p 8089 start
+    root  1148     1   0   Oct 05 ?          97:42 splunkd -p 8089 start
+c27nrowscnlad2w
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+Loaded plugins: product-id
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+C27CFMSCNLAD31W  issues
+C27CFMSCNLAD32W  issues
+C27CFMSCNLAD31A  issues
+C27CFMSCNLAD31D  issues
+C27CFMSCNLAD32D  issues
+C27CFMSCNLAT41W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat41w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4189     1  0 Oct04 ?        02:42:05 splunkd -p 8089 start
+root      4198  4189  0 Oct04 ?        00:00:17 [splunkd pid=4189] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAT42W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat42w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      4203     1  0 Oct07 ?        01:53:14 splunkd -p 8089 start
+root      4212  4203  0 Oct07 ?        00:00:12 [splunkd pid=4203] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAT43W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat43w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      4190     1  0 Oct04 ?        01:17:35 splunkd -p 8089 start
+root      4199  4190  0 Oct04 ?        00:00:09 [splunkd pid=4190] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAT41A
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat41a.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      3902     1  0 Oct04 ?        01:20:49 splunkd -p 8089 start
+root      3908  3902  0 Oct04 ?        00:00:14 [splunkd pid=3902] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAT41D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat41d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      5170     1  0 Oct04 ?        01:14:21 splunkd -p 8089 start
+root      5176  5170  0 Oct04 ?        00:00:19 [splunkd pid=5170] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAT42D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat42d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4805     1  0 Oct04 ?        01:17:28 splunkd -p 8089 start
+root      4812  4805  0 Oct04 ?        00:00:19 [splunkd pid=4805] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAT43D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat43d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      4609     1  0 Oct04 ?        01:18:48 splunkd -p 8089 start
+root      4618  4609  0 Oct04 ?        00:00:20 [splunkd pid=4609] splunkd -p 8089 start [process-runner]
+192.168.153.167  issues
+192.168.153.168  issues
+192.168.153.169  issues
+192.168.133.117  issues
+192.168.153.118
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat43w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root     31491     1  0 Oct11 ?        01:27:44 splunkd -p 8089 start
+root     31493 31491  0 Oct11 ?        00:00:25 [splunkd pid=31491] splunkd -p 8089 start [process-runner]
+192.168.133.103  issues
+192.168.133.122
+Installed Packages
+splunkforwarder.x86_64               6.4.0-f2c836328108                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat43d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      2056     1  0 Oct11 ?        01:13:16 splunkd -p 8089 start
+root      2057  2056  0 Oct11 ?        00:00:20 [splunkd pid=2056] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP11W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap11w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      4192     1  0 Oct07 ?        02:21:05 splunkd -p 8089 start
+root      4199  4192  0 Oct07 ?        00:00:18 [splunkd pid=4192] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP12W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap12w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      4203     1  0 Oct07 ?        02:01:48 splunkd -p 8089 start
+root      4213  4203  0 Oct07 ?        00:00:14 [splunkd pid=4203] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP13W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap13w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      4371     1  0 Oct07 ?        01:35:37 splunkd -p 8089 start
+root      4377  4371  0 Oct07 ?        00:00:09 [splunkd pid=4371] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP11A
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap11a.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      3959     1  0 Oct07 ?        01:19:13 splunkd -p 8089 start
+root      3964  3959  0 Oct07 ?        00:00:19 [splunkd pid=3959] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP11D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap11d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      5165     1  0 Oct07 ?        00:56:19 splunkd -p 8089 start
+root      5172  5165  0 Oct07 ?        00:00:14 [splunkd pid=5165] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP12D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap12d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4775     1  0 Oct07 ?        01:28:07 splunkd -p 8089 start
+root      4786  4775  0 Oct07 ?        00:00:23 [splunkd pid=4775] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP13D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap13d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4590     1  0 Oct07 ?        01:14:05 splunkd -p 8089 start
+root      4595  4590  0 Oct07 ?        00:00:15 [splunkd pid=4590] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP21W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap21w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4220     1  0 Oct20 ?        00:12:30 splunkd -p 8089 start
+root      4229  4220  0 Oct20 ?        00:00:03 [splunkd pid=4220] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP22W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap22w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4234     1  0 Oct07 ?        00:59:16 splunkd -p 8089 start
+root      4242  4234  0 Oct07 ?        00:00:15 [splunkd pid=4234] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP21A
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap21a.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4054     1  0 Oct23 ?        00:04:46 splunkd -p 8089 start
+root      4063  4054  0 Oct23 ?        00:00:00 [splunkd pid=4054] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP21D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap21d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4519     1  0 Oct19 ?        00:18:40 splunkd -p 8089 start
+root      4528  4519  0 Oct19 ?        00:00:04 [splunkd pid=4519] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP22D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap22d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4642     1  0 Oct10 ?        01:02:48 splunkd -p 8089 start
+root      4648  4642  0 Oct10 ?        00:00:14 [splunkd pid=4642] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP11W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp11w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.14.6:8089
+root      4220     1  0 Oct07 ?        01:41:29 splunkd -p 8089 start
+root      4228  4220  0 Oct07 ?        00:00:17 [splunkd pid=4220] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP12W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp12w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      4213     1  0 Oct07 ?        01:34:22 splunkd -p 8089 start
+root      4219  4213  0 Oct07 ?        00:00:14 [splunkd pid=4213] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP13W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp13w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      4217     1  0 Oct07 ?        01:28:02 splunkd -p 8089 start
+root      4222  4217  0 Oct07 ?        00:00:18 [splunkd pid=4217] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP11A
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp11a.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      3858     1  0 Oct07 ?        00:51:22 splunkd -p 8089 start
+root      3867  3858  0 Oct07 ?        00:00:08 [splunkd pid=3858] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP11D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp11d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      5016     1  0 Oct07 ?        01:23:23 splunkd -p 8089 start
+root      5021  5016  0 Oct07 ?        00:00:18 [splunkd pid=5016] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP12D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp12d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      4808     1  0 Oct07 ?        01:22:03 splunkd -p 8089 start
+root      4817  4808  0 Oct07 ?        00:00:20 [splunkd pid=4808] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP13D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp13d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      4630     1  0 Oct07 ?        01:16:52 splunkd -p 8089 start
+root      4635  4630  0 Oct07 ?        00:00:20 [splunkd pid=4630] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP21W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp21w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4135     1  0 Oct07 ?        00:55:00 splunkd -p 8089 start
+root      4144  4135  0 Oct07 ?        00:00:12 [splunkd pid=4135] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP22W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp22w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4163     1  0 Oct07 ?        00:57:16 splunkd -p 8089 start
+root      4172  4163  0 Oct07 ?        00:00:15 [splunkd pid=4163] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP21A
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp21a.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      3809     1  0 Oct07 ?        00:56:03 splunkd -p 8089 start
+root      3819  3809  0 Oct07 ?        00:00:12 [splunkd pid=3809] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP21D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp21d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4459     1  0 Oct10 ?        00:57:35 splunkd -p 8089 start
+root      4480  4459  0 Oct10 ?        00:00:14 [splunkd pid=4459] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP22D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp22d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4664     1  0 Oct10 ?        01:19:35 splunkd -p 8089 start
+root      4673  4664  0 Oct10 ?        00:00:16 [splunkd pid=4664] splunkd -p 8089 start [process-runner]
+c27nmrscnla04w
+Installed Packages
+splunkforwarder.i386                6.6.3-e21ee54bc796                 installed
+Loaded plugins: product-id
+[default]
+host = c27nmrscnla04w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4409     1  0 Oct16 ?        00:37:55 splunkd -p 8089 start
+root      4425  4409  0 Oct16 ?        00:00:11 [splunkd pid=4409] splunkd -p 8089 start [process-runner]
+c27nmrscnlad1a
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+Loaded plugins: product-id, subscription-manager
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      1967     1  0 Oct23 ?        00:06:11 splunkd -p 8089 start
+root      1969  1967  0 Oct23 ?        00:00:03 [splunkd pid=1967] splunkd -p 8089 start [process-runner]
+c27nmrscnla02d
+Installed Packages
+splunkforwarder.i386                6.6.3-e21ee54bc796                 installed
+Loaded plugins: product-id
+[default]
+host = c27nmrscnla02d.sscnola.oob
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      3625     1  0 Oct11 ?        01:05:56 splunkd -p 8089 start
+root      3641  3625  0 Oct11 ?        00:00:15 [splunkd pid=3625] splunkd -p 8089 start [process-runner]
+c27nmrscnlad1d
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+Loaded plugins: product-id, subscription-manager
+[default]
+host = c27nmrscnlad1d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      2156     1  0 Oct11 ?        02:14:51 splunkd -p 8089 start
+root      2158  2156  0 Oct11 ?        00:01:00 [splunkd pid=2156] splunkd -p 8089 start [process-runner]
+c27nmrscnlat1w
+Installed Packages
+splunkforwarder.i386                6.6.3-e21ee54bc796                 installed
+Loaded plugins: product-id
+[default]
+host = c27nmrscnlat1w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4304     1  0 Oct11 ?        00:59:22 splunkd -p 8089 start
+root      4320  4304  0 Oct11 ?        00:00:17 [splunkd pid=4304] splunkd -p 8089 start [process-runner]
+c27nmrscnla03d
+Installed Packages
+splunkforwarder.i386                6.6.3-e21ee54bc796                 installed
+Loaded plugins: product-id
+[default]
+host = c27nmrscnla03d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      3607     1  0 Oct11 ?        01:43:52 splunkd -p 8089 start
+root      3611  3607  0 Oct11 ?        00:00:19 [splunkd pid=3607] splunkd -p 8089 start [process-runner]
+c27nmrscnlap1w
+Installed Packages
+splunkforwarder.i386                6.6.3-e21ee54bc796                 installed
+Loaded plugins: product-id
+[default]
+host = c27nmrscnlaP1w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+c27nmrscnla01d
+Installed Packages
+splunkforwarder.i386                6.6.3-e21ee54bc796                 installed
+Loaded plugins: product-id
+[default]
+host = c27nmrscnla01d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+c27nmrscnlap1t
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+Loaded plugins: product-id
+[default]
+host = c27nmrscnlap1t
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      2035     1  0 13:34 ?        00:00:29 splunkd -p 8089 start
+root      2040  2035  0 13:34 ?        00:00:00 [splunkd pid=2035] splunkd -p 8089 start [process-runner]
+c27nmrsspscp1w
+Installed Packages
+splunkforwarder.i386                6.6.3-e21ee54bc796                 installed
+Loaded plugins: product-id
+[default]
+host = c27nmrsspscp1w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.14.6:8089
+c27nmrsspsc01d
+Installed Packages
+splunkforwarder.i386                6.6.3-e21ee54bc796                 installed
+Loaded plugins: product-id
+[default]
+host = c27nmrsspsc01d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.14.6:8089
+c27nmrsspscp1t
+C27NWDCUCNLAP2F
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+Loaded plugins: product-id, refresh-packagekit
+[default]
+host = c27nwdcucnlap2f
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      2011     1  0 Oct17 ?        00:23:15 splunkd -p 8089 start
+root      2019  2011  0 Oct17 ?        00:00:18 [splunkd pid=2011] splunkd -p 8089 start [process-runner]
+c27tfmmscnlad1d
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+Loaded plugins: product-id, subscription-manager
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      2028     1  0 Oct11 ?        01:37:25 splunkd -p 8089 start
+root      2034  2028  0 Oct11 ?        00:00:57 [splunkd pid=2028] splunkd -p 8089 start [process-runner]
+c27tfmmscnlat1w
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+[default]
+host = c27tfmmscnlat1w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      1356     1  0 Oct11 ?        01:21:17 splunkd -p 8089 start
+root      1358  1356  0 Oct11 ?        00:00:40 [splunkd pid=1356] splunkd -p 8089 start [process-runner]
+c27tfmmscnlat1a
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+Loaded plugins: product-id, subscription-manager
+[default]
+host = c27tfmmscnlat1a
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      1745     1  0 Oct11 ?        02:08:21 splunkd -p 8089 start
+root      1747  1745  0 Oct11 ?        00:01:34 [splunkd pid=1745] splunkd -p 8089 start [process-runner]
+c27tfmmscnlat2a
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+[default]
+host = c27tfmmscnlat2a
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      1728     1  0 Oct11 ?        01:40:00 splunkd -p 8089 start
+root      1730  1728  0 Oct11 ?        00:01:35 [splunkd pid=1728] splunkd -p 8089 start [process-runner]
+c27tfmmscnlat3a
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+[default]
+host = c27tfmmscnlat3a
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      1762     1  0 Oct11 ?        01:20:05 splunkd -p 8089 start
+root      1764  1762  0 Oct11 ?        00:01:11 [splunkd pid=1762] splunkd -p 8089 start [process-runner]
+c27tfmmscnlat1d
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+[default]
+host = c27tfmmscnlat1d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      1687     1  0 Oct11 ?        01:17:28 splunkd -p 8089 start
+root      1692  1687  0 Oct11 ?        00:00:44 [splunkd pid=1687] splunkd -p 8089 start [process-runner]
+c27tfmmscnlap1w
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+[default]
+host = c27tfmmscnlap1w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      1389     1  0 Oct18 ?        00:56:20 splunkd -p 8089 start
+root      1391  1389  0 Oct18 ?        00:00:22 [splunkd pid=1389] splunkd -p 8089 start [process-runner]
+c27tfmmscnlap1a
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      1747     1  0 Oct18 ?        00:42:53 splunkd -p 8089 start
+root      1752  1747  0 Oct18 ?        00:00:32 [splunkd pid=1747] splunkd -p 8089 start [process-runner]
+c27tfmmscnlap2a
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      1754     1  0 Oct18 ?        00:36:28 splunkd -p 8089 start
+root      1755  1754  0 Oct18 ?        00:00:32 [splunkd pid=1754] splunkd -p 8089 start [process-runner]
+c27tfmmscnlap3a
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      1796     1  0 Oct18 ?        00:32:01 splunkd -p 8089 start
+root      1798  1796  0 Oct18 ?        00:00:31 [splunkd pid=1796] splunkd -p 8089 start [process-runner]
+c27tfmmscnlap1d
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      1726     1  0 Oct18 ?        00:36:38 splunkd -p 8089 start
+root      1728  1726  0 Oct18 ?        00:00:23 [splunkd pid=1726] splunkd -p 8089 start [process-runner]

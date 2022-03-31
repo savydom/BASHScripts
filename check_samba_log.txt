@@ -1,0 +1,316 @@
+Samba Check
+acetstapp
+Patch:119757-42
+mywm-qa
+Patch:119757-42
+acetstdb
+service/network/samba                             4.4.16-0.175.3.25.0.3.0    i--
+aceprdapp
+Patch:119757-42
+mywm-hq
+Patch:119757-42
+mywm-lant
+Patch:119757-42
+mywm-pac
+Patch:119757-42
+aceprddb
+service/network/samba                             4.4.16-0.175.3.25.0.3.0    i--
+aceprdapp-sd
+Patch:119757-42
+mywm-hq-sd
+Patch:119757-42
+mywm-lant-sd
+Patch:119757-42
+mywm-pac-sd
+Patch:119757-42
+aceprddb-sd
+service/network/samba                             4.4.16-0.175.3.25.0.3.0    i--
+sscudw1
+sscudw2
+sscudw3
+sscudmt1
+sscudmt2
+sscudmt3
+sscudft1
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+itcujd
+cmsidtest
+cmsidtest2
+cmsidtest3
+sscutmt1
+sscutmt2
+sscutmt3
+sscutft2
+itcujb
+itcujb2
+sscucw1
+sscujmt1
+sscucft1
+itcujc
+sscucw1-sd
+sscujmt1-sd
+sscucft1-sd
+itcujc-sd
+nmpbswbdev1
+Patch:119757-42
+nmpbsapdev1
+Patch:119757-42
+nmpbsoamdev1
+Patch:119757-42
+nmpbsdbdev1
+Patch:119757-42
+nmpbswbtst1
+Patch:119757-42
+nmpbsaptst1
+Patch:119757-42
+nmpbsaptst2
+Patch:119757-42
+nmpbsoamtst1
+Patch:119757-42
+nmpbssastst1
+Patch:119757-42
+nmpbsdbtst1
+Patch:119757-42
+nmpbsdbtst2
+nmpbsdbtst3
+Patch:119757-42
+nmpbswbprd2
+Patch:119757-42
+nmpbsapprd1
+Patch:119757-42
+nmpbsapprd2
+Patch:119757-42
+nmpbsoamprd1
+Patch:119757-42
+nmpbssasprd1
+Patch:119757-42
+nmpbsdbprd1
+Patch:119757-42
+nmpbsdbprd2
+Patch:119757-42
+nmpbsdbprd3
+Patch:119757-42
+nmpbsdbprd4
+Patch:119757-42
+nmpbswbprd2-sd
+Patch:119757-42
+nmpbsapprd1-sd
+Patch:119757-42
+nmpbsapprd2-sd
+Patch:119757-42
+nmpbsoamprd1-sd
+Patch:119757-42
+nmpbssasprd1-sd
+Patch:119757-42
+nmpbsdbprd1-sd
+Patch:119757-42
+nmpbsdbprd2-sd
+Patch:119757-42
+nmpbsdbprd3-sd
+Patch:119757-42
+nmpbsdbprd4-sd
+Patch:119757-42
+SEMDVAP1
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+SEMDEVDB
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+SSCMAIL
+Patch:119757-42
+SEMTTAP1
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+SEMTSTDB
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+SEMPVCS
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+SEMPDAP1
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+SEMPRDDB
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+SSCMAIL-SD
+Patch:119757-42
+SEMPDAP1-SD
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+SEMPRDDB-SD
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+mrrsdbdev
+mrrsdbtst
+mrrsdbprd
+mrrsdbprd-sd
+rimsdbdev
+Patch:119757-42
+rimsdbtst
+Patch:119757-42
+rimsdbprd
+Patch:119757-42
+rimsdbprd-sd
+Patch:119757-42
+arowsdbtst
+arowsdbprd
+arowsdbprd-sd
+nrowsdbdev
+nrowsdbtst
+nrowsdbprd
+nrowsdbprd-sd
+spscnlat1d
+Patch:119757-42
+spscnlap1d
+Patch:119757-42
+spscnlap2d
+Patch:119757-42
+spscnlap1t
+Patch:119757-42
+spsspscp1d
+Patch:119757-42
+spsspscp1t
+pmtdbdev
+Patch:119757-42
+pmtdbtst
+Patch:119757-42
+pmtdbprd
+Patch:119757-42
+pmtdbprd-sd
+Patch:119757-42
+pridecnlat1f
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+pridecnlap1f
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+pridespscp1f
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+jalisdbdev
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+jalisdbtst
+jalisdbprd
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+jalisdbprd-sd
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+fdatacnlad1w
+library/samba/libsmbclient                        4.4.16-0.175.3.25.0.3.0    i--
+fdatacnlat1w
+fdatacnlat2w
+Patch:119757-42
+fdatacnlat3w
+Patch:119757-42
+fdatacnlap1w
+Patch:119757-42
+fdatacnlap1w-sd
+Patch:119757-42
+netcdcnlad3d
+netcdcnlad6d
+netcdcnlat3d
+netcdcnlat6d
+netcdcnlap3d
+netcdcnlap6d
+netcdcnlap3d-sd
+c27nrowscnlad2w
+Installed Packages
+samba.x86_64                 4.6.2-11.el7_4                  @rhel-7-server-rpms
+Loaded plugins: product-id, subscription-manager
+C27CFMSCNLAD31W  issues
+C27CFMSCNLAD32W  issues
+C27CFMSCNLAD31A  issues
+C27CFMSCNLAD31D  issues
+C27CFMSCNLAD32D  issues
+C27CFMSCNLAT41W
+Loaded plugins: product-id
+C27CFMSCNLAT42W
+Loaded plugins: product-id
+C27CFMSCNLAT43W
+Loaded plugins: product-id
+C27CFMSCNLAT41A
+Loaded plugins: product-id
+C27CFMSCNLAT41D
+Loaded plugins: product-id
+C27CFMSCNLAT42D
+Loaded plugins: product-id
+C27CFMSCNLAT43D
+Loaded plugins: product-id
+192.168.153.167  issues
+192.168.153.168  issues
+192.168.153.169  issues
+192.168.133.117  issues
+192.168.153.118
+Loaded plugins: product-id, subscription-manager
+192.168.133.103  issues
+192.168.133.122
+Loaded plugins: product-id, subscription-manager
+C27CFMSCNLAP11W
+Loaded plugins: product-id
+C27CFMSCNLAP12W
+Loaded plugins: product-id
+C27CFMSCNLAP13W
+Loaded plugins: product-id
+C27CFMSCNLAP11A
+Loaded plugins: product-id
+C27CFMSCNLAP11D
+Loaded plugins: product-id
+C27CFMSCNLAP12D
+Loaded plugins: product-id
+C27CFMSCNLAP13D
+Loaded plugins: product-id
+C27CFMSCNLAP21W
+Loaded plugins: product-id
+C27CFMSCNLAP22W
+Loaded plugins: product-id
+C27CFMSCNLAP21A
+Loaded plugins: product-id
+C27CFMSCNLAP21D
+Loaded plugins: product-id
+C27CFMSCNLAP22D
+Loaded plugins: product-id
+C27CFMSSPSCP11W
+Loaded plugins: product-id
+C27CFMSSPSCP12W
+Loaded plugins: product-id
+C27CFMSSPSCP13W
+Loaded plugins: product-id
+C27CFMSSPSCP11A
+Loaded plugins: product-id
+C27CFMSSPSCP11D
+Loaded plugins: product-id
+C27CFMSSPSCP12D
+Loaded plugins: product-id
+C27CFMSSPSCP13D
+Loaded plugins: product-id
+C27CFMSSPSCP21W  issues
+C27CFMSSPSCP22W  issues
+C27CFMSSPSCP21A  issues
+C27CFMSSPSCP21D  issues
+C27CFMSSPSCP22D  issues
+c27nmrscnla04w
+Loaded plugins: product-id
+c27nmrscnlad1a
+Loaded plugins: product-id, subscription-manager
+c27nmrscnla02d
+Loaded plugins: product-id
+c27nmrscnlad1d
+Loaded plugins: product-id, subscription-manager
+c27nmrscnlat1w
+Loaded plugins: product-id
+c27nmrscnla03d
+Loaded plugins: product-id
+c27nmrscnlap1w
+Loaded plugins: product-id
+c27nmrscnla01d
+Loaded plugins: product-id
+c27nmrscnlap1t
+Loaded plugins: product-id, subscription-manager
+c27nmrsspscp1w
+Loaded plugins: product-id
+c27nmrsspsc01d
+Loaded plugins: product-id
+c27nmrsspscp1t
+C27NWDCUCNLAP2F
+Loaded plugins: product-id, refresh-packagekit
+c27tfmmscnlad1d
+Loaded plugins: product-id, subscription-manager
+c27tfmmscnlat1w
+c27tfmmscnlat1a
+Loaded plugins: product-id, subscription-manager
+c27tfmmscnlat2a
+c27tfmmscnlat3a
+c27tfmmscnlat1d
+c27tfmmscnlap1w
+c27tfmmscnlap1a
+c27tfmmscnlap2a
+c27tfmmscnlap3a
+c27tfmmscnlap1d

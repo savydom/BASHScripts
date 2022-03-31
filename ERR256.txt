@@ -1,0 +1,4 @@
+
+r Downloading Packages:
+  kernel-firmware-2.6.32-696.30.1.el6.noarch: failure: kernel-firmware-2.6.32-696.30.1.el6.noarch.rpm from rhel-6-server-rpms: [Errno 256] No more mirrors to try.
+:

@@ -1,0 +1,1545 @@
+Patch Install Log
+aceprdapp
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 4 * * * perl /usr/local/bin/check_expired_id.prl
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+aceprddb
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+0 2 * * 4 /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 4 * * * perl /usr/local/bin/check_expired_id.prl
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+15 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+acetstapp
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 4 * * * perl /usr/local/bin/check_expired_id.prl
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+acetstdb
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 4 * * * perl /usr/local/bin/check_expired_id.prl
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+arowsdbprd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+arowsdbtst
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+#5 19 * * * /usr/local/scripts/snap.sh > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+cmsidtest
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+59 23 * * * /usr/local/bin/run-webalizer > /var/tmp/webalizer.out 2>&1
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+# Weekly virus scanning
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+cmsidtest2
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+59 23 * * * /usr/local/bin/run-webalizer > /var/tmp/webalizer.out 2>&1
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+# Weekly virus scanning
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+cmsidtest3
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+59 23 * * * /usr/local/bin/run-webalizer > /var/tmp/webalizer.out 2>&1
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+# Weekly virus scanning
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/jumpstart/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+0 4 * * * svcadm -v disable apache2 > /tmp/apache2stop.log 2>&1
+1 4 * * * svcadm -v disable tomcat > /tmp/tomcatstop.log 2>&1
+9 4 * * * svcadm -v enable tomcat > /tmp/tomcatstart.log 2>&1
+10 4 * * * svcadm -v enable apache2 > /tmp/apache2start.log 2>&1
+itcujb
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 4 * * * /usr/local/bin/chkexp
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+itcujb2
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 4 * * * /usr/local/bin/chkexp
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+itcujc
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+5 0 1 * * /usr/local/bin/spass.pl > /dev/null 2>&1
+#0 4 * * * /usr/local/bin/chkexp
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+15 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+itcujd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+5 2 * * * /home/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+#0 4 * * * /usr/local/bin/chkexp
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+jalisdbtst
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+5 2 * * * /home/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+jalisdbprd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+#0 * * * * /usr/sbin/audit -n
+# Engineering Jobs
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/jalisdbprd 2>&1
+# Virus scans
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+# Time
+15 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+#Various fixes for security scan items.
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+mrrsdbdev
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+mrrsdbprd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+0 4 * * * /usr/local/bin/chkexp
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+25 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+* * * * * /root/clean_dump.sh /var/core 3000000
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+0 22 5 8 * /usr/local/scripts/snap.sh
+mrrsdbtst
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+0 4 * * * /usr/local/bin/chkexp
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+mywm-hq
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+25 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+mywm-lant
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+25 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+mywm-pac
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+25 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+mywm-qa
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 4 * * * perl /usr/local/bin/check_expired_id.prl
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+nmpbsapdev1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsapdev1 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+00 18 * * * /home/scriptid/scripts/OS/spconfig_snapshot.pl
+20 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+nmpbsapprd1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsapprd1 2>&1
+# Time
+15 * * * * /usr/sbin/ntpdate -B 192.168.104.76 > /dev/null  2>&1
+# Virus scans
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+20 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+nmpbsapprd2
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 * * * * /usr/sbin/audit -n
+# Enineering Jobs
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsapprd2 2>&1
+# Virus scans
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+# Time
+20 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+nmpbsaptst1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsaptst1 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+nmpbsaptst2
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsaptst2 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+nmpbsdbdev1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+#0 * * * * /usr/sbin/audit -n
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsdbdev1 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+25 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+nmpbsdbprd1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+#0 * * * * /usr/sbin/audit -n
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsdbprd1 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+nmpbsdbprd2
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+#0 * * * * /usr/sbin/audit -n
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsdbprd2 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+# 15 * * * * /usr/sbin/sendmail -q
+0 0 * * 0,6 ( /usr/bin/date;/usr/bin/iostat -xzn 5 720;/usr/bin/date) >> /tmp/iostat.log 2>&1
+nmpbsdbprd3
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+#0 * * * * /usr/sbin/audit -n
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsdbprd3 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+nmpbsdbprd4
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 * * * * /usr/sbin/audit -n
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsdbprd4 2>&1
+15 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+nmpbsdbtst1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsdbtst1 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+nmpbsdbtst2
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsdbtst2 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+nmpbsdbtst3
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbsdbtst3 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+nmpbswbdev1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbswbdev1 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+00 18 * * * /home/scriptid/scripts/OS/spconfig_snapshot.pl
+20 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+nmpbswbprd1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+25 * * * * /usr/sbin/ntpdate -B 192.168.104.76 > /dev/null  2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbswbprd1 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+20 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+nmpbswbtst1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/nmpbswbtst1 2>&1
+25 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+sscucft1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/ssct6p00 2>&1
+15 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+sscucw1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+##0 2 * * 4 /usr/lib/acct/dodisk
+59 23 * * * /usr/local/bin/run-webalizer > /var/tmp/webalizer.out 2>&1
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 10 * * * /usr/local/bin/cms-cons > /tmp/cms-cons.out 2>&1
+* * * * * netstat -an | grep 443 | grep ESTAB | wc -l >>/var/tmp/https-connections.daily
+1 10 * * * cat /dev/null > /var/tmp/https-connections.daily
+0 10 * * * sh /usr/local/bin/ops_mail.sh > /dev/null 2>&1
+#
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/ssct6p00 2>&1
+15 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+#
+# Fixes files after patching
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+
+# Apache & Tomcat restart, Everyday of every month
+0 4 * * * svcadm -v disable apache2 > /tmp/apache2stop.log 2>&1
+1 4 * * * svcadm -v disable tomcat > /tmp/tomcatstop.log 2>&1
+9 4 * * * svcadm -v enable tomcat > /tmp/tomcatstart.log 2>&1
+10 4 * * * svcadm -v enable apache2 > /tmp/apache2start.log 2>&1
+sscudft1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+# Weekly mail statistics
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+sscudmt1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /tmp/mailstats.log 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+sscudmt2
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /tmp/mailstats.log 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+sscudmt3
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /tmp/mailstats.log 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+sscudw1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+#0,30 * * * * sh /usr/local/bin/stats_mon.sh  | /usr/local/bin/ops_mail.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+sscudw2
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+#0,30 * * * * sh /usr/local/bin/stats_mon.sh  | /usr/local/bin/ops_mail.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+sscudw3
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+#0,30 * * * * sh /usr/local/bin/stats_mon.sh  | /usr/local/bin/ops_mail.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+sscujmt1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+##0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /tmp/mailstats.log 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+15 * * * * /usr/sbin/ntpdate -B nolatimeserver > /dev/null  2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/sscut1018 2>&1
+# Fixes files after patching
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+# Tomcat & JBoss & cmsEP restart, Everyday of every month
+1 4 * * * svcadm -v disable tomcat > /tmp/tomcatstop.log 2>&1
+2 4 * * * svcadm -v disable jboss > /tmp/jbossstop.log 2>&1
+3 4 * * * svcadm -v disable cmsEventProcessor > /tmp/cmsEventProcessor.log 2>&1
+4 4 * * * svcadm -v enable jboss > /tmp/jbossstart.log 2>&1
+5 4 * * * svcadm -v enable tomcat > /tmp/tomcatstart.log 2>&1
+10 4 * * * svcadm -v enable cmsEventProcessor > /tmp/cmsEventProcessor.log 2>&1
+sscutft1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+sscutft2
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+sscutmt1
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+# JBoss restart
+#0 6,13 * * * svcadm -v restart jboss > /tmp/jbossrestart.log 2>&1
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+sscutmt2
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+sscutmt3
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -a` 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/jumpstart/jumpstart/scripts/srrfix
+1 4 * * * svcadm -v disable tomcat > /tmp/tomcatstop.log 2>&1
+2 4 * * * svcadm -v disable jboss > /tmp/jbossstop.log 2>&1
+3 4 * * * svcadm -v disable cmsEventProcessor > /tmp/cmsEventProcessor.log 2>&1
+4 4 * * * svcadm -v enable jboss > /tmp/jbossstart.log 2>&1
+5 4 * * * svcadm -v enable tomcat > /tmp/tomcatstart.log 2>&1
+10 4 * * * svcadm -v enable cmsEventProcessor > /tmp/cmsEventProcessor.log 2>&1
+aceprdapp-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+35 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 4 * * * perl /usr/local/bin/check_expired_id.prl
+5 0 1 * * /net/192.168.14.150/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/192.168.14.150/jumpstart/scripts/srrfix
+aceprddb-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+35 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+0 2 * * 4 /usr/lib/acct/dodisk
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 4 * * * perl /usr/local/bin/check_expired_id.prl
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+acetstapp-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/acetstapp 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 4 * * * perl /usr/local/bin/check_expired_id.prl
+5 0 1 * * /net/192.168.14.164/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/192.168.14.164/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+arowsdbprd-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 * * * /certchk/findcert.sh > /tmp/findcert.out
+55 23 * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+arowsdbtst-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/arowsdbtst 2>&1
+0 2 * * 4 /usr/lib/acct/dodisk
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/192.168.14.164/jumpstart/admin/spass.pl > /dev/null 2>&1
+#5 19 * * * /usr/local/scripts/snap.sh > /dev/null 2>&1
+0 6 * * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/192.168.14.164/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+cmsidtest-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+59 23 * * * /usr/local/bin/run-webalizer > /var/tmp/webalizer.out 2>&1
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+# Weekly virus scanning
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+cmsidtest2-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+59 23 * * * /usr/local/bin/run-webalizer > /var/tmp/webalizer.out 2>&1
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+# Weekly virus scanning
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+cmsidtest3-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+59 23 * * * /usr/local/bin/run-webalizer > /var/tmp/webalizer.out 2>&1
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+# Weekly virus scanning
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+itcujb-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+#0 * * * * /usr/sbin/audit -n
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/itcujb 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+1 * * * * /usr/local/scripts/setmtu.sh > /dev/null 2>&1
+15 * * * * /usr/sbin/ntpdate -B 192.168.14.164 > /dev/null  2>&1
+itcujb2-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+#0 * * * * /usr/sbin/audit -n
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/itcujb2 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+1 * * * * /usr/local/scripts/setmtu.sh > /dev/null 2>&1
+#7 * * * * /usr/bin/sh /usr/local/scripts/emc_sync_split.sh >> /tmp/emc_log_roll.txt 2>&1
+15 * * * * /usr/sbin/ntpdate -B 192.168.14.164 > /dev/null  2>&1
+itcujc-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+#0 4 * * * /usr/local/bin/chkexp
+55 23 * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+itcujd-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/itcujd 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+#0 4 * * * /usr/local/bin/chkexp
+# Added to reset root password
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+jalisdbtst-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+#5 0 1 * * /usr/local/bin/spass.sparc > /dev/null 2>&1
+5 0 1 * * /net/192.168.14.164/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+#35 * * * * /usr/sbin/ntpdate 192.168.104.76 > /dev/null  2>&1
+0 6 * * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/192.168.14.164/jumpstart/scripts/srrfix
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/jalisdb 2>&1
+jalisdbprd-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 * * * * /usr/sbin/audit -n
+# Virus scans
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+# Monthly Password change
+5 0 1 * * /net/192.168.14.164/jumpstart/admin/spass.pl > /dev/null 2>&1
+# Time
+15 * * * * /usr/sbin/ntpdate -B 192.168.14.164 > /dev/null  2>&1
+#Various fixes for security scan items.
+0 3 * * 1 /net/192.168.14.164/jumpstart/scripts/srrfix
+mrrsdbdev-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/mrrsdbdev 2>&1
+5 0 1 * * /net/192.168.14.164/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 * * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/192.168.14.164/jumpstart/scripts/srrfix
+mrrsdbprd-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+0 4 * * * /usr/local/bin/chkexp
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 * * * /certchk/findcert.sh > /tmp/findcert.out
+25 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+mrrsdbtst-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/mrrsdbtst 2>&1
+0 2 * * 4 /usr/lib/acct/dodisk
+0 4 * * * /usr/local/bin/chkexp
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/192.168.14.164/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 * * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/192.168.14.164/jumpstart/scripts/srrfix
+mywm-hq-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+25 * * * * /usr/sbin/ntpdate -B 192.168.104.76 > /dev/null  2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/192.168.14.164/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/192.168.14.164/jumpstart/scripts/srrfix
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -a` 2>&1
+mywm-lant-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+25 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+mywm-pac-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+25 * * * * /usr/sbin/ntpdate -B 192.168.104.76 > /dev/null  2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/192.168.14.164/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/192.168.14.164/jumpstart/scripts/srrfix
+mywm-qa-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/acetstapp 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 4 * * * perl /usr/local/bin/check_expired_id.prl
+5 0 1 * * /net/192.168.14.164/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/192.168.14.164/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+sscucft1-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B 192.168.14.164 > /dev/null  2>&1
+sscucw1-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+##10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+##0 2 * * 4 /usr/lib/acct/dodisk
+59 23 * * * /usr/local/bin/run-webalizer > /var/tmp/webalizer.out 2>&1
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+#0 10 * * * /usr/local/bin/cms-cons > /tmp/cms-cons.out 2>&1
+#* * * * * netstat -an | grep 443 | grep ESTAB | wc -l >>/var/tmp/https-connections.daily
+#1 10 * * * cat /dev/null > /var/tmp/https-connections.daily
+#0 10 * * * sh /usr/local/bin/ops_mail.sh > /dev/null 2>&1
+#
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+#
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+
+# Apache restart, Every Monday of every month
+#0 4 * * 1 svcadm -v disable apache2 > /tmp/apache2stop.log 2>&1
+#1 4 * * 1 svcadm -v disable tomcat > /tmp/tomcatstop.log 2>&1
+#9 4 * * 1 svcadm -v enable tomcat > /tmp/tomcatstart.log 2>&1
+#10 4 * * 1 svcadm -v enable apache2 > /tmp/apache2start.log 2>&1
+sscudft1-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+sscudmt1-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /tmp/mailstats.log 2>&1
+## JBoss restart
+#1 2 * * 0,3 svcadm restart jboss > /tmp/jbossrestart.log 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/sscudmt1 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+sscudmt2-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /tmp/mailstats.log 2>&1
+## JBoss restart
+#1 2 * * 0,3 svcadm restart jboss > /tmp/jbossrestart.log 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/sscudmt2 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+sscudmt3-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /tmp/mailstats.log 2>&1
+## JBoss restart
+#1 2 * * 0,3 svcadm restart jboss > /tmp/jbossrestart.log 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/sscudmt3 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+sscudw1-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+#0,30 * * * * sh /usr/local/bin/stats_mon.sh  | /usr/local/bin/ops_mail.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+
+sscudw2-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+#0,30 * * * * sh /usr/local/bin/stats_mon.sh  | /usr/local/bin/ops_mail.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+sscudw3-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+#0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+#0,30 * * * * sh /usr/local/bin/stats_mon.sh  | /usr/local/bin/ops_mail.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+15 * * * * /usr/sbin/ntpdate -B sdtimeserver.sscnola.oob > /dev/null  2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+sscujmt1-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+##0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+# Tomcat restart, Every Monday of every month
+#1 4 * * 1 svcadm -v disable tomcat > /tmp/tomcatstop.log 2>&1
+#2 4 * * 1 svcadm -v disable jboss > /tmp/jbossstop.log 2>&1
+#3 4 * * 1 svcadm -v disable cmsEventProcessor > /tmp/cmsEventProcessor.log 2>&1
+#4 4 * * 1 svcadm -v enable jboss > /tmp/jbossstart.log 2>&1
+#5 4 * * 1 svcadm -v enable tomcat > /tmp/tomcatstart.log 2>&1
+#10 4 * * 1 svcadm -v enable cmsEventProcessor > /tmp/cmsEventProcessor.log 2>&1
+55 23 * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/`uname -n` 2>&1
+sscutft1-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+sscutft2-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+#0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+25 * * * * /usr/sbin/ntpdate -B sdtimeserver > /dev/null  2>&1
+
+sscutmt1-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/sscutmt1 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B 192.168.14.164 > /dev/null  2>&1
+sscutmt2-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /home/nso/AUDIT/archive.sh > /home/nso/AUDIT/output/sscutmt2 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B 192.168.14.164 > /dev/null  2>&1
+sscutmt3-sd
+#ident	"@(#)root	1.21	04/03/23 SMI"
+#
+# The root crontab should be used to perform accounting data collection.
+#
+#
+10 3 * * * /usr/sbin/logadm
+15 3 * * 0 /usr/lib/fs/nfs/nfsfind
+30 3 * * * [ -x /usr/lib/gss/gsscred_clean ] && /usr/lib/gss/gsscred_clean
+#10 3 * * * /usr/lib/krb5/kprop_script ___slave_kdcs___
+0 2 * * 4 /usr/lib/acct/dodisk
+# Weekly mail statistics
+0 0 * * 1 sh /etc/mail/mailstats.sh > /dev/null 2>&1
+0 2 * * * /home/nso/uvscan/run > /tmp/uvscan.out 2>&1
+30 0 * * * /usr/local/bin/archive.sh > /dev/null 2>&1
+5 0 1 * * /net/sdt1003/jumpstart/admin/spass.pl > /dev/null 2>&1
+0 6 27 * * /certchk/findcert.sh > /tmp/findcert.out
+0 3 * * 1 /net/sdt1003/jumpstart/scripts/srrfix
+55 23 * * * /usr/sbin/ntpdate -B 192.168.14.164 > /dev/null  2>&1

@@ -1,0 +1,40 @@
+Networker Check
+fdatacnlad1w
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+fdatacnlat1w
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+fdatacnlat2w
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+fdatacnlat3w
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+fdatacnlap1w
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+fdatacnlap1w-sd
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+netcdcnlad3d
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+netcdcnlad6d
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+netcdcnlat3d
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+netcdcnlat6d
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+netcdcnlap3d
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+netcdcnlap6d
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416
+netcdcnlap3d-sd
+   PKGINST:  LGTOclnt
+   VERSION:  8.2.4.9.Build.1416

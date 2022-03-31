@@ -1,0 +1,76 @@
+USER_ATTR Log
+cmsidtest
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:06:27 2016 from cmsidtest
+cmsidtest2
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:01:04 2016 from cmsidtest2
+cmsidtest3
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:01:14 2016 from cmsidtest3
+itcujb
+Last login: Fri Dec  2 13:04:37 2016 from itcujb
+itcujb2
+Last login: Fri Dec  2 13:05:04 2016 from itcujb2
+itcujc
+itcujd
+sscucft1
+sscucw1
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:06:27 2016 from sscucw1
+sscudft1
+Last login: Fri Dec  2 13:06:26 2016 from sscudft1
+sscudmt1
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:06:58 2016 from sscudmt1
+sscudmt2
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:07:09 2016 from sscudmt2
+sscudmt3
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:07:19 2016 from sscudmt3
+sscudw1
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:07:24 2016 from sscudw1
+sscudw2
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:07:41 2016 from sscudw2
+sscudw3
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:07:53 2016 from sscudw3
+sscujmt1
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+sscutft2
+Last login: Fri Dec  2 13:09:38 2016 from sscutft2
+sscutmt1
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:07:44 2016 from sscutmt1
+sscutmt2
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:07:38 2016 from sscutmt2
+sscutmt3
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:07:49 2016 from sscutmt3
+itcujc-sd
+sscucft1-sd
+sscucw1-sd
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm
+Last login: Fri Dec  2 13:09:48 2016 from sscucw1
+sscujmt1-sd
+15d14
+< zpopova::::type=normal;auths=cms.smf.*;roles=svcadm,webadm

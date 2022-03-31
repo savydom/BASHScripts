@@ -1,0 +1,415 @@
+Splunk Check
+C27CFMSCNLAD31W  issues
+C27CFMSCNLAD32W  issues
+C27CFMSCNLAD31A  issues
+C27CFMSCNLAD31D  issues
+C27CFMSCNLAD32D  issues
+C27CFMSCNLAT41W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat41w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root     18287     1  0 Oct27 ?        04:04:59 splunkd -p 8089 restart
+root     18291 18287  0 Oct27 ?        00:00:29 [splunkd pid=18287] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAT42W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat42w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root     30772     1  0 Oct27 ?        04:12:00 splunkd -p 8089 restart
+root     30777 30772  0 Oct27 ?        00:00:31 [splunkd pid=30772] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAT43W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat43w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      7218     1  0 Oct27 ?        02:36:46 splunkd -p 8089 restart
+root      7223  7218  0 Oct27 ?        00:00:22 [splunkd pid=7218] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAT41A
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat41a.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root     10545     1  0 Oct27 ?        02:09:13 splunkd -p 8089 restart
+root     10551 10545  0 Oct27 ?        00:00:28 [splunkd pid=10545] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAT41D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat41d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root     20666     1  0 Oct27 ?        02:00:40 splunkd -p 8089 restart
+root     20670 20666  0 Oct27 ?        00:00:35 [splunkd pid=20666] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAT42D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat42d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root     19479     1  0 Oct27 ?        02:08:51 splunkd -p 8089 restart
+root     19483 19479  0 Oct27 ?        00:00:37 [splunkd pid=19479] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAT43D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlat43d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root     11616     1  0 Oct27 ?        02:04:45 splunkd -p 8089 restart
+root     11621 11616  0 Oct27 ?        00:00:35 [splunkd pid=11616] splunkd -p 8089 restart [process-runner]
+192.168.153.167  issues
+192.168.153.169  issues
+192.168.153.168  issues
+192.168.133.117  issues
+192.168.153.118
+Installed Packages
+splunkforwarder.x86_64        6.6.3-e21ee54bc796        @NOLA_NEDC_Splunk_Splunk
+Loaded plugins: product-id, subscription-manager
+[default]
+host = c27cfmscnlat43w
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root      2028     1  0 05:50 ?        00:02:32 splunkd -p 8089 start
+root      2033  2028  0 05:50 ?        00:00:00 [splunkd pid=2028] splunkd -p 8089 start [process-runner]
+192.168.133.103  issues
+192.168.133.122
+Installed Packages
+splunkforwarder.x86_64             6.6.3-e21ee54bc796              @rhel7-x86_64
+Loaded plugins: product-id, subscription-manager
+[default]
+host = c27cfmscnlat43d
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+C27CFMSCNLAP11W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap11w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root     17910     1  0 Oct27 ?        04:44:22 splunkd -p 8089 restart
+root     17915 17910  0 Oct27 ?        00:00:45 [splunkd pid=17910] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAP12W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap12w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root     11014     1  0 Oct27 ?        04:13:29 splunkd -p 8089 restart
+root     11019 11014  0 Oct27 ?        00:00:34 [splunkd pid=11014] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAP13W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap13w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root     22675     1  0 Oct27 ?        02:43:36 splunkd -p 8089 restart
+root     22680 22675  0 Oct27 ?        00:00:19 [splunkd pid=22675] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAP11A
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap11a.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root     23085     1  0 Oct27 ?        02:21:30 splunkd -p 8089 restart
+root     23090 23085  0 Oct27 ?        00:00:37 [splunkd pid=23085] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAP11D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap11d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.104.110:8089
+root     14129     1  0 Oct27 ?        01:57:23 splunkd -p 8089 restart
+root     14134 14129  0 Oct27 ?        00:00:40 [splunkd pid=14129] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAP12D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap12d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root     32008     1  0 Oct27 ?        02:32:56 splunkd -p 8089 restart
+root     32014 32008  0 Oct27 ?        00:00:41 [splunkd pid=32008] splunkd -p 8089 restart [process-runner]
+C27CFMSCNLAP13D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap13d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4595     1  0 Oct27 ?        01:43:25 splunkd -p 8089 start
+root      4600  4595  0 Oct27 ?        00:00:00 [splunkd pid=4595] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP21W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap21w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4300     1  0 Nov18 ?        01:00:41 splunkd -p 8089 start
+root      4309  4300  0 Nov18 ?        00:00:09 [splunkd pid=4300] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP22W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap22w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4343     1  0 Nov18 ?        00:44:21 splunkd -p 8089 start
+root      4352  4343  0 Nov18 ?        00:00:06 [splunkd pid=4343] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP21A
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap21a.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4148     1  0 Nov18 ?        00:29:06 splunkd -p 8089 start
+root      4157  4148  0 Nov18 ?        00:00:06 [splunkd pid=4148] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP21D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap21d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      5479     1  0 Nov18 ?        00:32:51 splunkd -p 8089 start
+root      5488  5479  0 Nov18 ?        00:00:07 [splunkd pid=5479] splunkd -p 8089 start [process-runner]
+C27CFMSCNLAP22D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmscnlap22d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.104.110:8089
+root      4955     1  0 Nov18 ?        00:34:59 splunkd -p 8089 start
+root      4964  4955  0 Nov18 ?        00:00:09 [splunkd pid=4955] splunkd -p 8089 start [process-runner]
+192.168.153.98  issues
+192.168.153.99  issues
+192.168.153.97  issues
+192.168.133.77  issues
+192.168.133.78  issues
+C27CFMSSPSCP11W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp11w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.14.6:8089
+root      4220     1  0 Oct07 ?        05:06:48 splunkd -p 8089 start
+root      4228  4220  0 Oct07 ?        00:00:49 [splunkd pid=4220] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP12W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp12w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      4213     1  0 Oct07 ?        04:40:02 splunkd -p 8089 start
+root      4219  4213  0 Oct07 ?        00:00:45 [splunkd pid=4213] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP13W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp13w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      4217     1  0 Oct07 ?        04:17:34 splunkd -p 8089 start
+root      4222  4217  0 Oct07 ?        00:00:51 [splunkd pid=4217] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP11A
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp11a.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      3858     1  0 Oct07 ?        02:34:38 splunkd -p 8089 start
+root      3867  3858  0 Oct07 ?        00:00:28 [splunkd pid=3858] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP11D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp11d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      5016     1  0 Oct07 ?        03:54:06 splunkd -p 8089 start
+root      5021  5016  0 Oct07 ?        00:00:55 [splunkd pid=5016] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP12D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp12d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      4808     1  0 Oct07 ?        03:30:14 splunkd -p 8089 start
+root      4817  4808  0 Oct07 ?        00:00:50 [splunkd pid=4808] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP13D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp13d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri=192.168.14.6:8089
+root      4630     1  0 Oct07 ?        03:58:51 splunkd -p 8089 start
+root      4635  4630  0 Oct07 ?        00:01:03 [splunkd pid=4630] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP21W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp21w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.14.6:8089
+root      4134     1  0 Nov17 ?        00:31:49 splunkd -p 8089 start
+root      4145  4134  0 Nov17 ?        00:00:08 [splunkd pid=4134] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP22W
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp22w.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.14.6:8089
+root      4169     1  0 Nov17 ?        00:32:06 splunkd -p 8089 start
+root      4178  4169  0 Nov17 ?        00:00:10 [splunkd pid=4169] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP21A
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp21a.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.14.6:8089
+root      3814     1  0 Nov17 ?        00:31:30 splunkd -p 8089 start
+root      3829  3814  0 Nov17 ?        00:00:06 [splunkd pid=3814] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP21D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp21d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.14.6:8089
+root      5280     1  0 Nov17 ?        00:48:11 splunkd -p 8089 start
+root      5289  5280  0 Nov17 ?        00:00:11 [splunkd pid=5280] splunkd -p 8089 start [process-runner]
+C27CFMSSPSCP22D
+Installed Packages
+splunkforwarder.x86_64               6.6.3-e21ee54bc796                installed
+Loaded plugins: product-id
+[default]
+host = c27cfmsspscp22d.ncdc.navy.mil
+[deployment-client]
+
+[target-broker:deploymentServer]
+targetUri = 192.168.14.6:8089
+root      4880     1  0 Nov17 ?        00:41:32 splunkd -p 8089 start
+root      4889  4880  0 Nov17 ?        00:00:08 [splunkd pid=4880] splunkd -p 8089 start [process-runner]
+192.168.153.89  issues
+192.168.133.68  issues
+192.168.153.87  issues
+192.168.153.88  issues
+192.168.133.67  issues

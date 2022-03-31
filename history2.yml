@@ -1,0 +1,84 @@
+---
+- hosts: all
+  gather_facts: false
+  become: true
+  become_flags: '-s'
+
+  tasks:
+
+    - name: "Check if /etc/profile.d/bash_completion.sh exists"
+      stat: path=/etc/profile.d/bash_completion.sh
+      register: bash_completion_check
+
+    - name: "Create /etc/profile.d/bash_completion.sh"
+      file:
+        path: /etc/profile.d/bash_completion.sh
+        state: touch
+        owner: root
+        group: root
+        mode: 0644
+      when: bash_completion_check.stat.exists == False
+
+    - name: "Add lines to /etc/profile.d/bash_completion.sh"
+      blockinfile:
+        dest: /etc/profile.d/bash_completion.sh
+        content: |
+          # Check for interactive bash and that we haven't already been sourced.
+          [ -z "$BASH_VERSION" -o -z "$PS1" -o -n "$BASH_COMPLETION_COMPAT_DIR" ] && return
+
+          # Check for recent enough version of bash.
+          bash=${BASH_VERSION%.*}; bmajor=${bash%.*}; bminor=${bash#*.}
+          if [ $bmajor -gt 4 ] || [ $bmajor -eq 4 -a $bminor -ge 1 ]; then
+            [ -r "${XDG_CONFIG_HOME:-$HOME/.config}/bash_completion" ] && \
+              . "${XDG_CONFIG_HOME:-$HOME/.config}/bash_completion"
+            if shopt -q progcomp && [ -r /usr/share/bash-completion/bash_completion ]; then
+              # Source completion code.
+              . /usr/share/bash-completion/bash_completion
+            fi
+          fi
+          unset bash bmajor bminor
+        marker: ""
+
+
+
+    - name: "Check if /etc/profile.d/history2.sh exists"
+      stat: path=/etc/profile.d/history2.sh
+      register: history2_check
+
+    - name: "Create /etc/profile.d/history2.sh"
+      file:
+        path: /etc/profile.d/history2.sh
+        state: touch
+        owner: root
+        group: root
+        mode: 0644
+      when: history2_check.stat.exists == False
+
+    - name: "Add lines to /etc/profile.d/history2.sh"
+      blockinfile:
+        dest: /etc/profile.d/history2.sh
+        content: |
+          #!/bin/bash
+          ## This creates a consolodated BASH history file /var/log/history2
+
+          ORIGINAL_USER=`who am i |awk {'print $1'}`
+          if [ "$USER" = "$ORIGINAL_USER" ];then
+            MYUSER=""
+          else
+            MYUSER="(as $USER)"
+          fi
+
+          if [ ! -z "!!" ];then
+            export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ; }"'echo $MYUSER "$(history 1 | cut -c8-)" |logger -p authpriv.notice'
+          else
+            PROMPT_COMMAND=""
+          fi
+        marker: ""
+
+    - name: Copy file.
+      copy:
+        src: /etc/profile.d/history2.sh
+        dest: /etc/profile.d/history2
+        owner: root
+        group: root
+        mode: 0700

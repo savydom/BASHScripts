@@ -1,0 +1,626 @@
+SSHD Log
+aceprdapp
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+aceprddb
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+acetstapp
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+acetstdb
+AllowUsers  preed bbilliot nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+arowsdbprd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+arowsdbtst
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+cmsidtest
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+cmsidtest2
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+cmsidtest3
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+itcujb
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+itcujb2
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+itcujc
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+itcujd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+jalisdbtst
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+jalisdbprd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+mrrsdbdev
+AllowUsers gbrandt dbuzbee preed nbt01 nso tnguyen sconway nso bspragins cpote rmartell dwalgamo emerg
+mrrsdbprd
+AllowUsers bbilliot dbuzbee preed nbt01 nso tnguyen sconway nso cpote rmartell dwalgamo  bspragins gbrandt emerg
+mrrsdbtst
+AllowUsers bbilliot preed dbuzbee nbt01 nso tnguyen sconway nso bspragins cpote rmartell dwalgamo jsmith emerg
+mywm-hq
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+mywm-lant
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+mywm-pac
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+mywm-qa
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+nmpbsapdev1
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta bspragins emerg
+nmpbsapprd1
+AllowUsers preed dbuzbee nbt01 nso tnguyen nso bspragins gbrandt emerg
+nmpbsapprd2
+AllowUsers preed dbuzbee nbt01 nso tnguyen nso bspragins gbrandt emerg
+nmpbsaptst1
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta emerg
+nmpbsaptst2
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta emerg
+nmpbsdbdev1
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta emerg
+nmpbsdbprd1
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta bspragins emerg
+nmpbsdbprd2
+AllowUsers kboe preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell sedward whirsh ehmoore knershi mhaun lurquieta emerg
+nmpbsdbprd3
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta emerg
+nmpbsdbprd4
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta emerg
+nmpbsdbtst1
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta emerg
+nmpbsdbtst2
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta emerg
+nmpbsdbtst3
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta emerg
+nmpbswbdev1
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta bspragins emerg
+nmpbswbprd1
+AllowUsers bbilliot preed dbuzbee nbt01 nso tnguyen sconway nso bspragins gbranch emerg
+nmpbswbtst1
+AllowUsers bbilliot preed nbt01 nso tnguyen dbuzbee fstuart jsauvinet cpote rmartell whirsh ehmoore knershi mhaun lurquieta emerg
+sscucft1
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscucw1
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudft1
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudmt1
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudmt2
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudmt3
+AllowUsers  preed dbuzbee nso tnguyen cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudw1
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudw2
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudw3
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscujmt1
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscutft1
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscutft2
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscutmt1
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscutmt2
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscutmt3
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+aceprdapp-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+aceprddb-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+acetstapp-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+arowsdbprd-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+arowsdbtst-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+cmsidtest-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+cmsidtest2-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+cmsidtest3-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+itcujb-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+itcujb2-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+itcujc-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+itcujd-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+jalisdbtst-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+jalisdbprd-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+mrrsdbdev-sd
+AllowUsers bbilliot preed dbuzbee nbt01 nso tnguyen nso bspragins gbrandt jsmith emerg
+mrrsdbprd-sd
+AllowUsers bbilliot preed dbuzbee nbt01 nso tnguyen nso jbertucci emerg
+mrrsdbtst-sd
+AllowUsers bbilliot preed dbuzbee nbt01 nso tnguyen nso bspragins gbrandt jsmith emerg
+mywm-hq-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+mywm-lant-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+mywm-pac-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+mywm-qa-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscucft1-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscucw1-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudft1-sd
+AllowUsers  bbilliot preed nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudmt1-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudmt2-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudmt3-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudw1-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudw2-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscudw3-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscujmt1-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscutft1-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscutft2-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscutmt1-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscutmt2-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+sscutmt3-sd
+AllowUsers  bbilliot preed dbuzbee nso tnguyen sconway cpote rmartell dwalgamo bspragins jsmith gbrandt emerg
+aceprdapp
+aceprddb
+acetstapp
+acetstdb
+arowsdbprd
+arowsdbtst
+cmsidtest
+cmsidtest2
+cmsidtest3
+itcujb
+itcujb2
+itcujc
+itcujd
+jalisdb
+mrrsdbdev
+mrrsdbprd
+mrrsdbtst
+aceprdapp
+aceprddb
+acetstapp
+acetstdb
+arowsdbprd
+arowsdbtst
+cmsidtest
+cmsidtest2
+cmsidtest3
+itcujb
+itcujb2
+itcujc
+itcujd
+jalisdb
+mrrsdbdev
+mrrsdbprd
+mrrsdbtst
+aceprdapp
+aceprddb
+acetstapp
+acetstdb
+arowsdbprd
+aceprdapp
+aceprddb
+acetstapp
+acetstdb
+arowsdbprd
+arowsdbtst
+cmsidtest
+cmsidtest2
+cmsidtest3
+itcujb
+itcujb2
+itcujc
+itcujd
+jalisdb
+mrrsdbdev
+mrrsdbprd
+mrrsdbtst
+mywm-hq
+aceprdapp
+aceprddb
+acetstapp
+acetstdb
+aceprdapp
+AllowUsers phoang lhuynh mrodriguez nerds dbrignac 
+match user nerds
+aceprddb
+match user nerds
+acetstapp
+AllowUsers phoang lhuynh mkreuz mrodriguez nerds 
+match user nerds
+acetstdb
+AllowUsers webxsys phoang lhuynh mkreuz mrodriguez nerds
+match user nerds
+arowsdbprd
+AllowUsers arowsuser mrodriguez nerds dbrignac 
+arowsdbtst
+AllowUsers arowsuser mrodriguez nerds dbrignac 
+match user nerds
+cmsidtest
+Match User nerds
+cmsidtest2
+Match User nerds
+cmsidtest3
+Match User nerds
+itcujb
+Match User nerds
+itcujb2
+Match User nerds
+itcujc
+AllowUsers  dkocha mchessher ebrightman mrodriguez dbrignac jbrocato nerds
+itcujd
+Match User nerds
+jalisdb
+match user nerds
+mrrsdbdev
+match user nerds
+mrrsdbprd
+AllowUsers rheitmeier kdurapau mrodriguez nerds dbrignac 
+AllowUsers nerds
+mrrsdbtst
+match user nerds
+mywm-hq
+match user nerds
+mywm-lant
+match user nerds
+mywm-pac
+match user nerds
+mywm-qa
+AllowUsers phoang lhuynh mkreuz mrodriguez nerds 
+match user nerds
+nkocnlad1a
+match user nerds
+nkocnlad1d
+match user nerds
+nkocnlad1s
+match user nerds
+nkocnlad1w
+nkocnlad2a
+match user nerds
+nkocnlap1a
+match user nerds
+nkocnlap1d
+match user nerds
+nkocnlap1s
+match user nerds
+nkocnlap1w
+match user nerds
+nkocnlap2a
+match user nerds
+nkocnlap2d
+match user nerds
+nkocnlap2s
+match user nerds
+nkocnlap2w
+match user nerds
+nkocnlap3a
+match user nerds
+nkocnlap3w
+match user nerds
+nkocnlap4a
+match user nerds
+nkocnlap4w
+match user nerds
+nkocnlat1a
+match user nerds
+nkocnlat1d
+match user nerds
+nkocnlat1s
+match user nerds
+nkocnlat1w
+match user nerds
+nkocnlat2a
+match user nerds
+nkocnlat2w
+match user nerds
+nkocnlat3w
+match user nerds
+nmpbsapdev1
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsapprd1
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsapprd2
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsaptst1
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsaptst2
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsdbdev1
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsdbprd1
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsdbprd2
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsdbprd3
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsdbprd4
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsdbtst1
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsdbtst2
+AllowUsers ehmoore knershi whirsh sedward nerds 
+match user nerds
+nmpbsdbtst3
+acetstapp
+acetstdb
+mywm-qa
+aceprdapp
+aceprddb
+mywm-hq
+mywm-lant
+mywm-pac
+arowsdbtst
+arowsdbprd
+sscudw1
+sscudw2
+sscudw3
+cmsidtest
+cmsidtest2
+cmsidtest3
+sscucw1
+sscudmt1
+sscudmt2
+sscudmt3
+sscutmt1
+sscutmt2
+sscutmt3
+sscujmt1
+sscudft1
+sscutft1
+sscutft2
+sscucft1
+itcujd
+itcujb
+acetstapp
+acetstdb
+mywm-qa
+aceprdapp
+acetstapp
+acetstdb
+mywm-qa
+aceprdapp
+aceprddb
+acetstapp
+acetstdb
+mywm-qa
+aceprdapp
+aceprddb
+mywm-hq
+mywm-lant
+mywm-pac
+arowsdbtst
+arowsdbprd
+sscudw1
+sscudw2
+sscudw3
+cmsidtest
+cmsidtest2
+cmsidtest3
+sscucw1
+sscudmt1
+sscudmt2
+sscudmt3
+sscutmt1
+sscutmt2
+sscutmt3
+sscujmt1
+sscudft1
+sscutft1
+sscutft2
+sscucft1
+itcujd
+itcujb
+itcujb2
+itcujc
+jalisdbtst
+jalisdbprd
+AllowUsers  vbiagas bzhong oracle
+nmpbswbdev1
+nmpbswbtst1
+nmpbswbprd2
+nmpbsapdev1
+nmpbsaptst1
+nmpbsaptst2
+nmpbsapprd1
+nmpbsapprd2
+nmpbsoamdev1
+nmpbsoamtst1
+nmpbsoamprd1
+AllowUsers oracle # mchessher peuper ebrightman nerds dbrignac 
+nmpbssastst1
+nmpbssasprd1
+nmpbsdbdev1
+nmpbsdbtst1
+AllowUsers ehmoore whirsh sedward oracle@10.29.43.140 oracle@10.29.43.141
+nmpbsdbtst2
+AllowUsers ehmoore whirsh sedward oracle@10.29.43.140 oracle@10.29.43.141
+nmpbsdbtst3
+nmpbsdbprd1
+AllowUsers  oracle@10.29.40.142 oracle@10.29.40.143 oracle@10.29.40.144 oracle@10.29.40.145
+nmpbsdbprd2
+AllowUsers  oracle@10.29.40.142 oracle@10.29.40.143 oracle@10.29.40.144 oracle@10.29.40.145
+nmpbsdbprd3
+AllowUsers  oracle@10.29.40.142 oracle@10.29.40.143 oracle@10.29.40.144 oracle@10.29.40.145
+nmpbsdbprd4
+AllowUsers  oracle@10.29.40.142 oracle@10.29.40.143 oracle@10.29.40.144 oracle@10.29.40.145
+c27cfmscnlad31a
+c27cfmscnlad31d
+c27cfmscnlad31w
+c27cfmscnlad32d
+c27cfmscnlad32w
+c27cfmscnlat41a
+c27cfmscnlat41d
+c27cfmscnlat41w
+c27cfmscnlat42d
+c27cfmscnlat42w
+c27cfmscnlat43d
+c27cfmscnlat43w
+c27cfmscnlap11a
+c27cfmscnlap11d
+c27cfmscnlap11w
+c27cfmscnlap12d
+c27cfmscnlap12w
+c27cfmscnlap13d
+c27cfmscnlap13w
+acetstapp-sd
+mywm-qa-sd
+aceprdapp-sd
+aceprddb-sd
+mywm-hq-sd
+mywm-lant-sd
+mywm-pac-sd
+arowsdbtst-sd
+arowsdbprd-sd
+sscudw1-sd
+sscudw3-sd
+cmsidtest-sd
+cmsidtest3-sd
+sscucw1-sd
+sscudmt1-sd
+sscudmt3-sd
+sscutmt1-sd
+sscutmt3-sd
+sscujmt1-sd
+sscudft1-sd
+sscutft1-sd
+sscutft2-sd
+sscucft1-sd
+itcujd-sd
+itcujb-sd
+itcujb2-sd
+itcujc-sd
+jalisdbtst-sd
+jalisdbprd-sd
+AllowUsers  vbiagas bzhong oracle
+nmpbswbprd2-sd
+nmpbsapprd1-sd
+nmpbsapprd2-sd
+nmpbsoamprd1-sd
+AllowUsers oracle mchessher peuper ebrightman mrodriguez nbt01 tbayhi nerds
+nmpbssasprd1-sd
+nmpbsdbprd1-sd
+AllowUsers  oracle@10.1.13.234 oracle@10.1.13.232 oracle@10.1.13.233 oracle@10.1.13.237
+nmpbsdbprd2-sd
+AllowUsers  oracle@10.1.13.234 oracle@10.1.13.232 oracle@10.1.13.233 oracle@10.1.13.237
+nmpbsdbprd3-sd
+AllowUsers  oracle@10.1.13.234 oracle@10.1.13.232 oracle@10.1.13.233 oracle@10.1.13.237
+nmpbsdbprd4-sd
+AllowUsers  oracle@10.1.13.234 oracle@10.1.13.232 oracle@10.1.13.233 oracle@10.1.13.237
+c27cfmscnlap11a-sd
+c27cfmscnlap11d-sd
+c27cfmscnlap11w-sd
+c27cfmscnlap12d-sd
+c27cfmscnlap12w-sd
+c27cfmscnlap13d-sd
+c27cfmscnlap13w-sd
+sscudw1
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich rstroup
+sscudw2
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich rstroup
+sscudw3
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich rstroup
+cmsidtest
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich rstroup
+cmsidtest2
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich rstroup
+cmsidtest3
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich rstroup
+sscucw1
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich rstroup
+sscudmt1
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich
+sscudmt2
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich
+sscudmt3
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich
+sscutmt1
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich rstroup
+sscutmt2
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich rstroup
+sscutmt3
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich rstroup
+sscujmt1
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich rstroup
+sscudft1
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich mpteci
+sscutft1
+sscutft2
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich mpteci trancms
+sscucft1
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+itcujd
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich
+itcujb
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich
+itcujb2
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+AllowUsers  jauthement balonzo nhall edetiege mwilliams dzuvich
+itcujc
+AllowUsers  dkocha kboudreaux ogoins eabadie cwest
+acetstapp
+AllowUsers  tbayhi mchessher dbrignac jbrocato dkocha kboudreaux
+acetstdb
+AllowUsers  tbayhi mchessher dbrignac jbrocato dkocha kboudreaux
+mywm-qa
+AllowUsers  tbayhi mchessher dbrignac jbrocato dkocha kboudreaux
+aceprdapp
+AllowUsers  tbayhi mchessher kboudreaux dbrignac jbrocato dkocha kboudreaux
+aceprddb
+AllowUsers  tbayhi mchessher kboudreaux dbrignac jbrocato dkocha kboudreaux
+mywm-hq
+AllowUsers  tbayhi mchessher kboudreaux dbrignac jbrocato dkocha kboudreaux
+mywm-lant
+AllowUsers  tbayhi mchessher kboudreaux jbrocato dkocha kboudreaux
+mywm-pac
+AllowUsers  tbayhi mchessher kboudreaux dbrignac jbrocato dkocha kboudreaux
+arowsdbtst
+AllowUsers  tbayhi jbrocato dbrignac dkocha kboudreaux
+arowsdbprd
+AllowUsers  tbayhi jbrocato dbrignac dkocha kboudreaux
