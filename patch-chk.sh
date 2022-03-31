@@ -39,7 +39,7 @@ if [[ $OST == "SunOS" ]]; then
     echo '[[  Setting SMPatch settings  ]]'
     echo '[[  Setting SMPatch settings  ]]' >> /home/scriptid/Logs/Patching/$OSN
     smpatch set patchpro.report.motd.messages=false >> /home/scriptid/Logs/Patching/$OSN 2>&1
-    smpatch set patchpro.patch.source=http://192.168.119.5:3816 >> /home/scriptid/Logs/Patching/$OSN 2>&1
+    smpatch set patchpro.patch.source=http://192.168.0.0:3816 >> /home/scriptid/Logs/Patching/$OSN 2>&1
     echo '[[                            ]]' >> /home/scriptid/Logs/Patching/$OSN
     echo '[[    Checking for patches    ]]'
     echo '[[    Checking for patches    ]]' >> /home/scriptid/Logs/Patching/$OSN
@@ -61,8 +61,8 @@ if [ -f /home/scriptid/Logs/Patching/$OSN ]; then
   echo
     echo '[[ Emailing contents of check ]]'
   echo
-#  ssh -l mjohnson -i /home/mjohnson/.ssh/id_rsa 192.168.104.39 mailx -s $OSN mark.d.johnson5.ctr@navy.mil < /home/scriptid/Logs/Patching/$OSN
-  ssh -l mjohnson -i /home/mjohnson/.ssh/id_rsa sscmail mailx -s $OSN mark.d.johnson5.ctr@navy.mil < /home/scriptid/Logs/Patching/$OSN
+#  ssh -l mjohnson -i /home/%userprofile%/.ssh/id_rsa 192.168.0.0 mailx -s $OSN %userprofile%@gmail.com < /home/scriptid/Logs/Patching/$OSN
+  ssh -l mjohnson -i /home/%userprofile%/.ssh/id_rsa sscmail mailx -s $OSN %userprofile%@gmail.com < /home/scriptid/Logs/Patching/$OSN
   echo
     echo '[[  Contents of patch check   ]]'
   echo
