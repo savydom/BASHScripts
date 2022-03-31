@@ -28,7 +28,7 @@ if [[ $OST == "SunOS" ]]; then
     echo '[[Resetting AutoFS & Publisher]]' >> /home/scriptid/Logs/Patching/$OSN
     svcadm restart autofs >> /home/scriptid/Logs/Patching/$OSN 2>&1
     pkg unset-publisher solaris >> /home/scriptid/Logs/Patching/$OSN 2>&1
-#    pkg set-publisher -g file:///net/sscmgt5/export/home/repo solaris >> /home/scriptid/Logs/Patching/$OSN 2>&1
+#    pkg set-publisher -g file:///net/mgt5/export/home/repo solaris >> /home/scriptid/Logs/Patching/$OSN 2>&1
     pkg set-publisher -G '*' -M '*' -g http://sscmgt5:10000/ solaris >> /home/scriptid/Logs/Patching/$OSN 2>&1
     echo '[[                            ]]' >> /home/scriptid/Logs/Patching/$OSN
     echo '[[    Checking - Patching     ]]' >> /home/scriptid/Logs/Patching/$OSN
@@ -41,7 +41,7 @@ if [[ $OST == "SunOS" ]]; then
     echo '[[                            ]]' >> /home/scriptid/Logs/Patching/$OSN
     echo '[[  Setting SMPatch settings  ]]' >> /home/scriptid/Logs/Patching/$OSN
     #smpatch set patchpro.report.motd.messages=false >> /home/scriptid/Logs/Patching/$OSN 2>&1
-    #smpatch set patchpro.patch.source=http://192.168.119.5:3816 >> /home/scriptid/Logs/Patching/$OSN 2>&1
+    #smpatch set patchpro.patch.source=http://192.168.0.0:3816 >> /home/scriptid/Logs/Patching/$OSN 2>&1
     echo '[[                            ]]' >> /home/scriptid/Logs/Patching/$OSN
     echo '[[    Checking - Patching     ]]' >> /home/scriptid/Logs/Patching/$OSN
     smpatch analyze > /var/tmp/patchlist
@@ -58,6 +58,6 @@ else
 fi
 if [ -f /home/scriptid/Logs/Patching/$OSN ]; then
   chmod 644 /home/scriptid/Logs/Patching/$OSN
-  ssh -l mjohnson -i /home/mjohnson/.ssh/id_rsa 192.168.104.39 mailx -s $OSN mark.d.johnson5.ctr@navy.mil,authur.groteguth.ctr@navy.mil < /home/scriptid/Logs/Patching/$OSN
-#  ssh -l mjohnson -i /home/mjohnson/.ssh/id_rsa sscmail mailx -s $OSN mark.d.johnson5.ctr@navy.mil,authur.groteguth.ctr@navy.mil < /home/scriptid/Logs/Patching/$OSN
+  ssh -l %userprofile% -i /home/%userprofile%/.ssh/id_rsa 192.168.0.0 mailx -s $OSN %userprofile%@gmail.com,authur@gmail.com < /home/scriptid/Logs/Patching/$OSN
+#  ssh -l %userprofile% -i /home/%userprofile%/.ssh/id_rsa sscmail mailx -s $OSN %userprofile%@gmail.com,authur@gmail.com < /home/scriptid/Logs/Patching/$OSN
 fi
