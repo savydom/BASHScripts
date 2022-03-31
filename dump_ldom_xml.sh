@@ -8,5 +8,5 @@
 
 /usr/sbin/ldm ls |grep -v NAME |grep -v primary|grep -v secondary |while read ldom rest
 do
-	/usr/sbin/ldm ls-constraints -x $ldom > /home/scriptid/LDOMS/COOP/"$ldom".xml
+	/usr/sbin/ldm ls-constraints -x $ldom > /home/%userprofile%/LDOMS/COOP/"$ldom".xml
 done
