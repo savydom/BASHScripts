@@ -2,9 +2,9 @@
 
 if [ $# -gt 0 ]
 then
-	if [ `hostname` != "sscmgt1" ] && [ `hostname` != "sscmgt2" ]
+	if [ `hostname` != "mgt1" ] && [ `hostname` != "mgt2" ]
 	then
-        	echo "Must run from sscmgt1 or sscmgt2"
+        	echo "Must run from mgt1 or mgt2"
         	exit
 	fi
 
@@ -14,5 +14,5 @@ else
 	exit
 fi
 
-/usr/lib/openldap/bin/ldappasswd -H ldapi:/// -W  -D cn=Manager,dc=sscnola,dc=oob \
-	-S uid=$1,ou=people,dc=sscnola,dc=oob;
+/usr/lib/openldap/bin/ldappasswd -H ldapi:/// -W  -D cn=Manager,dc=DC,dc=DCC \
+	-S uid=$1,ou=people,dc=DC,dc=DCC;
