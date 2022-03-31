@@ -3,7 +3,7 @@ export PATH
 rm /var/tmp/patchlist
 echo "Analyzing..."
 smpatch set patchpro.report.motd.messages=false
-smpatch set patchpro.patch.source=http://192.168.119.5:3816
+smpatch set patchpro.patch.source=http://192.168.0.0:3816
 smpatch analyze > /var/tmp/patchlist
 
 ###
@@ -20,7 +20,7 @@ fi
 rm /var/tmp/patch-apply
 for i in `cat /var/tmp/patchlist |cut -d " " -f1`
 do
-	if [ -f /net/192.168.104.149/jumpstart/patch/sparc/$i".zip" ]
+	if [ -f /net/192.168.0.0/jumpstart/patch/sparc/$i".zip" ]
 #        if [ -f /net/sscmgt1/jumpstart/patch/sparc/$i".zip" ]
 #        if [ -f /net/192.168.14.150/export/home/patch/$i".zip" ]
 #        if [ -f /net/sdmgt1/export/home/patch/$i".zip" ]
@@ -29,9 +29,9 @@ do
 	fi
 done
 rm /var/tmp/patchorder
-smpatch order -d /net/192.168.104.149/jumpstart/patch/sparc -xidlist=/var/tmp/patch-apply > /var/tmp/patchorder
-#smpatch order -d /net/sscmgt1/jumpstart/patch/sparc -xidlist=/var/tmp/patch-apply > /var/tmp/patchorder
-#smpatch order -d /net/192.168.14.150/export/home/patch/ -xidlist=/var/tmp/patch-apply > /var/tmp/patchorder
+smpatch order -d /net/192.168.0.0/jumpstart/patch/sparc -xidlist=/var/tmp/patch-apply > /var/tmp/patchorder
+#smpatch order -d /net/mgt1/jumpstart/patch/sparc -xidlist=/var/tmp/patch-apply > /var/tmp/patchorder
+#smpatch order -d /net/192.168.0.0/export/home/patch/ -xidlist=/var/tmp/patch-apply > /var/tmp/patchorder
 #smpatch order -d /net/sdmgt1/export/home/patch/ -xidlist=/var/tmp/patch-apply > /var/tmp/patchorder
 
 # create new liveupgrade boot environment
