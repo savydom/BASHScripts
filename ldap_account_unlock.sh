@@ -1,15 +1,15 @@
 #!/bin/bash
 
-if [ `hostname` != "sscmgt1" ] && [ `hostname` != "sscmgt2" ]
+if [ `hostname` != "mgt1" ] && [ `hostname` != "mgt2" ]
 then
-        echo "Must run from sscmgt1 or sscmgt2"
+        echo "Must run from mgt1 or mgt2"
         exit
 fi
 
 
 /usr/bin/ldapmodify -H ldapi:/// \
-	-D cn=Manager,dc=sscnola,dc=oob -W  <<!
-dn: uid=$1,ou=people,dc=sscnola,dc=oob
+	-D cn=Manager,dc=DC,dc=DCC -W  <<!
+dn: uid=$1,ou=people,dc=DC,dc=DCC
 changetype: modify
 delete: pwdAccountLockedTime
 -
